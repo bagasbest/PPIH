@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/bg_gradient2"
-    tools:context=".instansi_pendidikan_di_hadhramaut.F5HomeActivity">
+    tools:context=".feature.instansi_pendidikan_di_hadhramaut.F5HomeActivity">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout

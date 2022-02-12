@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@android:color/white" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/avenir_bold"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:text="Persatuan Pelajar Indonesia"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/avenir_bold"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:layout_marginBottom="30dp"
+        android:text="Hadhramaut"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp" />
+
+
+
+</LinearLayout>

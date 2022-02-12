@@ -1,5 +1,6 @@
-package com.project.ppih.sejarah_masjid_tarim
+package com.project.ppih.feature.sejarah_masjid_tarim
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.project.ppih.databinding.ActivityF3HomeBinding
@@ -10,6 +11,15 @@ class F3HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityF3HomeBinding.inflate(layoutInflater)
         setContentView(binding?.root)
+
+        binding?.view2?.setOnClickListener {
+            startActivity(Intent(this, MasjidJamiActivity::class.java))
+        }
+
+        binding?.view5?.setOnClickListener {
+            startActivity(Intent(this, MasjidFathActivity::class.java))
+        }
+
     }
 
     override fun onDestroy() {

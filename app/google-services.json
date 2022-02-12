@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "740612470797",
+    "project_id": "ppih-4d205",
+    "storage_bucket": "ppih-4d205.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740612470797:android:cce01d2ae21725a7977d44",
+        "android_client_info": {
+          "package_name": "com.project.ppih"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740612470797-1oe8tr5grjvls7fs8k51hv2euuap0n0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA17oAj6KSOZoChig40iav7TnEslZmBu2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740612470797-1oe8tr5grjvls7fs8k51hv2euuap0n0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

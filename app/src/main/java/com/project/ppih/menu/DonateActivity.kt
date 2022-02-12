@@ -1,16 +1,16 @@
-package com.project.ppih.dzikir_dan_maulid
+package com.project.ppih.menu
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.project.ppih.databinding.ActivityF2HomeBinding
+import com.project.ppih.databinding.ActivityDonateBinding
 
-class F2HomeActivity : AppCompatActivity() {
+class DonateActivity : AppCompatActivity() {
 
-    private var binding: ActivityF2HomeBinding? = null
+    private var binding: ActivityDonateBinding? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityF2HomeBinding.inflate(layoutInflater)
+        binding = ActivityDonateBinding.inflate(layoutInflater)
         setContentView(binding?.root)
     }
 

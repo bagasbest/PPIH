@@ -12,19 +12,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPIH">
         <activity
-            android:name=".al_quran.F1HomeActivity"
+            android:name=".feature.sejarah_masjid_tarim.MasjidFathActivity"
             android:exported="false" />
         <activity
-            android:name=".instansi_pendidikan_di_hadhramaut.F5HomeActivity"
+            android:name=".feature.sejarah_masjid_tarim.MasjidJamiActivity"
             android:exported="false" />
         <activity
-            android:name=".biografi_ulama_hadhramaut.F4HomeActivity"
+            android:name=".menu.feedback.FeedbackAddActivity"
             android:exported="false" />
         <activity
-            android:name=".sejarah_masjid_tarim.F3HomeActivity"
+            android:name=".menu.feedback.FeedbackActivity"
             android:exported="false" />
         <activity
-            android:name=".dzikir_dan_maulid.F2HomeActivity"
+            android:name=".menu.ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.DonateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menu.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.al_quran.F1HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.instansi_pendidikan_di_hadhramaut.F5HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.biografi_ulama_hadhramaut.F4HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.sejarah_masjid_tarim.F3HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.dzikir_dan_maulid.F2HomeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

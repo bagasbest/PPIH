@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.sejarah_masjid_tarim.MasjidJamiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masjid Jami’ Tarim"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                app:riv_corner_radius="10dp"
+                android:contentDescription="@string/image"
+                android:id="@+id/masjid_jami" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="Masjid Jami' terletak di tengah pasar kota Tarim dekat Benteng Ronad (yaitu benteng tempat diculiknya Habib Muhammad bin Salim bin Hafidz abah dari Habib Ali dan Habib Umar). Masjid Tarim termasuk salah satu masjid tertua di kota Tarim yang pembangunan pertama selesai pada tahun 215 Hijriyah. Hanya saja bangunannya terus terjadi moderanisasi dan renovasi setelahnya." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Untuk awal perenovasian bahwa Masjid Jami' direnovasi pada tahun 375 Hijriyah sampai 402 Hijriyah. Kemudian ketika tahun 581Hijriyah Masjid Jami' mengalami kerusakan parah kemudian dibangun ulang pada tahun itu juga dam kemudian diperbarui lagi pada tahun 585 Hijriah." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Pada tahap ketiga dari perenovasiannya, ditambah tiga atap (teras) di depan mesjid sebelah barat. Diceritakan bahwa Habib Abdullah bin Ahmad bin Alwi adalah orang yang menyusun bagian depan masjid dengan enam baris shaf yang sebelumnya hanya tiga baris shaf. Selain itu Habib Abdullah bin Ahmad bin Alwi juga mengganti mimbar dan pintu masuk sebelah barat dengan yang baru. Serta beliau juga lah yang memakmurkan Masjid Jami' pada waktu itu." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Dituturkan bahwa tokoh yang memakmurkan Masjid Jami' sebelum Habib Abdullah bin Ahmad bin Alwi adalah Syekh Jamaluddin Muhammad bin Ahmad Basukutih. Stelah beliau wafat pada tahun 953 Hijriyah dilanjutkan oleh Syekh Umar Syab Al-Khatib yang beliau juga merenovasi mimbar masjid ini. Kemudian setelahnya salah satu dari sultan juga merenovasi mimbar masjid ini, yang mana sultan ini menulis nama dan tanggal peletakkannya di bawah mimbar tersebut. Pada waktu itu juga di masjid ini ada patahan kayu untuk penyangga atap mimbar, yang mana itu adalah peninggalan dari keluarga keturunan Syihabuddin." />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Pada tahun 902 Hijriyah adalah tahap keempat dari perenovasian pembangunan Masjid Jami'. Pada tahap ini masjid diperluas dan dipermegah atas permintaan Syekh Abdullah bin Abdurrahman Balhaj Bafadhol kepada sultan Amir bin Abdul Wahab. Karenanya sultan mengirim dana yang banyak kepada Sayid Muhammad bin Ahmad Basukutih agar segera dilaksanakm perluasan dan permegahan serta perkokoh terhadap bangunan mesjid." />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Dan pada tahun 917 Hijriyah adalah tahap kelima renovasi Masjid Jami' dimana pada tahun ini dibangun beberapa kamar mandi yang diprakarsai oleh anak sultan Amir. Diceritakan pula bahwa Syekh Makki bin Ahmad Bafadhol dan Syekh Muhammad bin Ahmad Bamisbah Bahanan bahwa beliau berdua adalah yang memakmurkan mesjid ini pada tahun 1100-an hijriyah." />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Adapun tahap terakhir bagi proses renovasi pembenahan Masjid Jami' adalah terjadi di tahun 1391 Hijriyah dimana ketika berkunjungnya Syekh Salim bin Ubaid Bahubaisi ke negeri Hadramaut dan beliau menyampaikan keinginan beliau kepada pembesar ulama Tarim bahwa beliau ingin merenovasi dan memperindah bangunan Masjid Jami' sehingga para ulama Tarim pun sangat berterimakasih atas yang demikian. Ketika dalam proses pembangunan, bahwa shalat Juma'at yang semulanya di laksanakan di Masjid Jami' sempat dipindah pelaksanaannya untuk sementara ke Masjid Muhdor. Akhirnya selasailah renovasi tahap terakhir ini pada tahun 1395 Hijriyah." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keutamaan Masjid Jami'"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berkata sebagian ulama bahwa shalat di Masjid Jami' lebih afdal sebagaimana dalam hadis yang diriwayatkan imoleh Imam Thobroni "
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Barangsiapa memandang menara Masjid Jami' niscaya akan diampuni dosanya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,4 +1,4 @@
-package com.project.ppih.instansi_pendidikan_di_hadhramaut
+package com.project.ppih.feature.instansi_pendidikan_di_hadhramaut
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -1,16 +1,16 @@
-package com.project.ppih.al_quran
+package com.project.ppih.feature.biografi_ulama_hadhramaut
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.project.ppih.databinding.ActivityF1HomeBinding
+import com.project.ppih.databinding.ActivityF4HomeBinding
 
-class F1HomeActivity : AppCompatActivity() {
+class F4HomeActivity : AppCompatActivity() {
 
-    private var binding: ActivityF1HomeBinding ? = null
+    private var binding: ActivityF4HomeBinding ? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityF1HomeBinding.inflate(layoutInflater)
+        binding = ActivityF4HomeBinding.inflate(layoutInflater)
         setContentView(binding?.root)
     }
 

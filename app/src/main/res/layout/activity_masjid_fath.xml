@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.sejarah_masjid_tarim.MasjidFathActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masjid Fath"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/masjid_fath"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:contentDescription="@string/image"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Masjid Al-Fath adalah satu dari sekian masjidnya Imam Abdullah bin Alawi Al- Haddad. Masjid ini terletak di daerah Hawi, tidak jauh dari kota Tarim. Masjid ini terhitung masjid yang tua karena dididirikan pada tahun 1083 Hijriah sebagaimana di ceritakan oleh Sayyid Al-Imam Ahmad bin Syekh Al-Hasan bin Imam Abdullah bin Alawi Al- Haddad dalam kitabnya Al- Fawaidussaniyyah, “Beliau memiliki masjid yang bagus  yang terletak di luar kota Tarim tepatnya di daerah Hawi yang terkenal  dengan nur yang beliau dirikan pada tahun 1083 Hijriah yang dinamakan dengan Masjid Al-Fath." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Imam Al-Hadda selalu melazimmkan shalat lima waktu dan menjadi imam disana sekaligus mengajarkan orang-orang mulai dari selesai shalat Asar hingga menedekati waktu Magrib. Belaiu istikamah melakukannya hingga akhir hayatnya. " />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Kemudian pada tahun 1999 Hijriah bangunan Masjid Al-Fath diperbaharui dan diperluas, ditambahi kolam dan tempat wudu’, di bangun juga menara yang tinggi untuk muazzin serta zawiyah bagi orang yang mempelajari ilmu." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Kemudian pada tahun 1412 Hijriah masjid ini di runtuhkan dan dibagun kembali dengan model yang modern yang tidak sama dengan model masjid – masjid yang ada di kota Tarim. Pada tahun ini masjid direnovasi langsung oleh keturunan-keturunannya beliau. Kemegahan arsitektur bisa kita nikmati bila berkunjung ke masjid ini, dinding – dinding dan atap masjid penuh dengan hiasan indah, berbagai kaligrafi juga memenuhi beberapa sudut dindingnya, begitupula tiang –tiangnya yang dikhiasi kaligrafi Ratib Imam Al- Haddad. Selain itu para penziarah juga dengan mudah dapat menemukan peninggalan-peninggalan Imam Al Habib  Abdulah bin Alwi Al-Haddad yang langsung ada di dalam masjid." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bagian - bagian Masjid"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="1.    Ma’bad ( tempat ibadah ) Imam Al-Haddad"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Keaslian Ma’bad Imam Al-Haddad di Masjid Al-Fath masih terjaga. Atapnya  terbuat dari susunan kayu kecil seperti kayu siwak. Hanya saja di bagian dinding dan lantai kini sudah di pasang keramik, yang mana awalnya belum seperti itu. Menyempatkan diri untuk shalat sunnah, i'tikaf dan berdoa di Masjid Al-Fath ImamAl-Haddad tentu merupakan kesempatan yang istimewa dsn nikmat dari Allah Swt." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="2.    Tasbih Imam Al-Haddad" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Dalam ma’bad pengunjug juga bisa menyaksikan sebuah tasbih besar milik Al-Habib Abdullah Al-Haddad. Tasbih ini biasanya akan di bawa menuju Masjid Ba’alawi ketika ada acara-acrara keagamaan di gelar di Masjid Ba'alawi. Pengungjung dapat mengambil berkah dengan turut berzikir memutar biji-biji tasbihnya." />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="3.    Bi'ir Syifa' (Sumur Penyembuhan)" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Pada bagian tengah masjid terdapat sebuag sumur yang dulu biasa digunakan oleh Imam Al-Haddad untuk berwudu. Pengunjung diperkenankan untuk meminum serta menyimpan air ini sebagi obat ataupun oleh–oleh berharga untuk keluarga di rumah. " />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="4.    Kamar Imam Al-Haddad bersama anak keturunannya" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="5.    Tempat dimana para murid beliau talaqqi menerima ilmu" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="6.    Tempat dimana Imam Al-Haddad dimandikan" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="7.    Zawiyah Imam Al-Haddad dan beberapa bagian lainnya." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Bila beruntung, pengunjung juga bisa sowan kepada Munsib ( pemimpin keluarga) Al- Haddad saat ini yaitu Al –Habib Hasan Al-Haddad yang rumahnya terletak di depan Masjid Al-Fath di daerah Hawi. Bila beliau berkenan pengunjung juga mengarap berkah untuk diberi kesempatan mengenakan baju yang pernah di pakai oleh Imam Al- Haddad." />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

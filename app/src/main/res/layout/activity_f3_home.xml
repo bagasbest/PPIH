@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@drawable/bg_gradient2"
     android:layout_height="match_parent"
-    tools:context=".sejarah_masjid_tarim.F3HomeActivity">
+    tools:context=".feature.sejarah_masjid_tarim.F3HomeActivity">
 
 
     <TextView
@@ -89,7 +89,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/avenir_bold"
-        android:text="Masjid Ba'alawi"
+        android:text="Masjid Jami’ Tarim"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"

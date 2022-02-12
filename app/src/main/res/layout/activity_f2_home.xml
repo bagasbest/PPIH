@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_gradient2"
-    tools:context=".dzikir_dan_maulid.F2HomeActivity">
+    tools:context=".feature.dzikir_dan_maulid.F2HomeActivity">
 
     <TextView
         android:id="@+id/textView"
