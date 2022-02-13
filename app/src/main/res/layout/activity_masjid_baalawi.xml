@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.sejarah_masjid_tarim.MasjidBaalawiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masjid Ba'alawi"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/masjid_baalawi"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:contentDescription="@string/image"
+                app:riv_corner_radius="10dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="Berdirinya Masjid Ba'alawi" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Masjid ini adalah masjid yang pertama kali dibangun oleh Bani Alwi pada abad keenam Hijriah. Pendirinya adalah As-Sayid al-Arifubillah Ali bin bin Alwi Khali’ Qasam (wafat pada tahun 529 Masehi). Beliau yang berasal dari Bani Alwi bersama-sama dengan saudaranya dari Bani Jadid dan Bani Basri serta bersama pelayan-pelayan mereka membangun masjid yang penuh berkah ini dengan penuh gotong royong serta mengerahkan kemampuan yang dimilikinya." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="Nama-nama Masjid Ba’alawi" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="(1) Masjid Ba’alawi" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Dinamakan Masjid Ba’alawi karena dinisbahkan kepada Al-Habib Abdullah Ba’alawi bin Alwi al-Ghuyur bin al-Faqih al-Muqaddam, karena Al-Habib Abdullah Ba’alawi mewakafkan harta miliknya sangat banyak sekali." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="(2) Masjid Bani Ahmad" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Disebut sebagai Masjid Qaum karena ribuan wali yang telah meletakkan kepala mereka di masjid tersebut untuk bersujud. Al-Habib Umar al-Muhdhor berkata," />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="(3) Masjidil Qaum ( masjid para wali besar)" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Disebut sebagai Masjid Qaum karena ribuan wali yang telah meletakkan kepala mereka di masjid tersebut untuk bersujud. Al-Habib Umar al-Muhdhor berkata," />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:id="@+id/masjid_baalawi_01"
+                android:contentDescription="@string/image" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:text="''Wahai saudaraku, ketahuilah Masjid Gaum terdapat di dalamnya keberkahan bagi orang yang shalat walaupun satu rakaat saja. Ketahiulah telah masuk di dalamnya para ahli qiyamullail para ahli bersimpuh pada Allah serta para wali yang saleh yang ahli ibadah.''" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="Pembangunan Masjid Ba’alawi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yang pertama:"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Masjid Ba’alawi yang pertama dibangun sangat istimewa sekali bahkan tanah di ambil dari sebuah desa tempat kakek Al-Habib Ali Khali' Qasam yaitu desa Bait Juber (kalau bahasa sekarang pasir lumajang) karena tanah di desa Bait Juber berwarna merah, sangat kuat dan bagus sekali untuk bangunan di banding tanah daerah lain. Tanah dari desa Bait Juber di angkut dengan dokar/ cikar ( yang pada saat itu adalah alat paling canggih dan modern untuk mengangkut barang) karena letaknya kira-kira 13 km dari kota Tarim.Semua Bani Jadid, Bani Basri, Bani Alwi dan para pelayan mereka bergotong-royong dalam membangun masjid tersebut." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yang kedua:"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Di zaman putra Al-Habib Ali Khali’ Qasam yaitu Al-Habib Muhammad Shohibul Mirbat, beliau semakin menyempurnakan bangunan dan merpercantik masjid buatan ayah beliau sebelum Al-Habib Muhammad Shohibul Mirbat pindah ke Dhofar (Oman). Al-Imam Muhammad Shohibul Mirbat bin Ali Kholi’ Qasam bukan membangun tapi melengkapi serta mempercantik dan memperindah bangunan yang ada dengan memberi cat putih serta membuatkan anak tangga dan memperbagus bagian-bagian yang mulai retak." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yang ketiga:"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Dibangun dan direnovasi oleh Al-Habib Umar Muhdhor bin Abdurrahman as-Seggaf yaitu bangunan yang ada sampai zaman sekarang ini. Al-Habib Umar Muhdhor membangun Masjid Ba’alawi di awal abad ke 9 Hijriyah setelah beliau menjadi Naqib Sadah al-Ba’alawi (ketua al-Ba’alawi) pada tahun 821H. Inisiatif dari Al-Habib Umar Muhdhor ini di sebabkan melihat keadaan masjid yang tidak layak lagi karena sudah tua dan hampir roboh, karena telah berdiri sejak 300 tahun yang lalu (ketika di hitung dari zaman Al-Habib Umar Muhdhor). Karenanya beliau mengumpulkan para pembesar habaib untuk musyawarah pembangunan masjid tersebut, namun mereka tidak sutuju atas usul Al-Habib Umar Muhdhor." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Maka Al-Habib Umar Muhdhor memanggil tukang dari daerah Mahro (daerah dekat ibu kota San’a) yang mana mereka orang yang kuat-kuat, untuk merobohkan Masjid Ba’alawi ketika hari Jum’at ketika para habaib berangkat shalat Jum’at di Masjid Jami’ Tarim (dulu ahli Tarim kalau shalat Jum’at jam delapan pagi sudah ada di masjid, dan pulangnya kira-kira jam dua siang karena setelah shalat mereka masih membaca zikir dan selawat serta Al-Qur’an di hari Jumat yang mulia) ketika mereka pulang dari masjid mereka temukan Masjid Ba’alawi telah roboh dan rata dengan tanah kecuali tembok bagian depan masjid dan pengimaman." />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Setelah selesai pembangunan Al-Habib Umar Muhdhor bin Abdurrahman as-Seggaf naik ke loteng masjid dengan mengangkat kaki kanannya lalu meletakkannya, mengangkat kaki satunya dan meletakkannya, beliau melakukan ini beberapa kali. Menurut sebagian habaib bahwa hal tersebut adalah gerakan kaki yang di lakukan Al-Habib Umar Muhdhor yang sampai sekarang menjadi adat Tarim yaitu ”ar-Rozih” (tarian kaki yang di iringi syair dengan yg berisi syair pujian dan doa). Kemudian Al-Habib Umar Muhdhor mengatakan dengan rasa gembira yang dipenuhi doa kepada Allah Swt dan memukulkan tongkatnya," />
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:contentDescription="@string/image"
+                android:id="@+id/masjid_baalawi_02" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:text="''Insyaallah bagunanku ini tidak akan berubah dan akan kokoh sampai hari kiamat.''" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Akhirnya berkat Al-Habib Umar Muhdhor, Masjid Ba’alawi yang kita lihat sekarang adalah bagunan beliau dan hasil karamah serta doa beliau bahkan menjadi makmur dengan ilmu dan ibadah sampai pada saat ini." />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="Perluasan Masjid Ba'alawi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="1) Al-Habib Alwi as-Tsamin al-Khered" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Masjid Ba’alawi yang telah dibangun Al-Habib Umar Mudhor di perluas bagian pintu masuknya dan di tambah menara oleh Al-Habib Alwi as-Tsamin bin Abu Bakar al-Khered." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="2) Al-Habib Ahmad Bajahdab" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Beliau al-Habib Ahmad Bajahdab menambah disamping kanan masjid sebuah tempat untuk belajar mengajar." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="Tempat Dingkatnya Para Wali " />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Banyak sekali yang mendapatkan sirr orang saleh di Masjid Ba'alawi.Al-Habib Abdullah al-Haddad mendapat maqam Al-Habib Abdullah al-Idrus di masjid ini. Bahkan ada seorang habaib mendapatkan “hal” para wali di Masjid Ba’alawi lalu ia berkata, “Ya Allah ikutkan teman-temanku yang ada di masjid ini sehingga mereka keluar dari masjid semuanya menjadi wali." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Subhanllah. Akhirnya mudah-mudahan Allah Swt memberikan kepada kita nikmat senantiasa berziarah di masjid ini, juga nikmat beribadah di dalam masjid ini, serta mendapatkan sirr dan keberkahan. Dan buat yang belum bisa berziarah, semoga diberikan nikmat bisa ziarah ke kota Tarim dan bisa sampai di Masjid Ba’alawi yang mulia dan penuh cahaya." />
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

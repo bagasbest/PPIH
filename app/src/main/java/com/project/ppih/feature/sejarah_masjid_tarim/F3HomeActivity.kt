@@ -20,6 +20,18 @@ class F3HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, MasjidFathActivity::class.java))
         }
 
+        binding?.view?.setOnClickListener {
+            startActivity(Intent(this, MasjidAssegafActivity::class.java))
+        }
+
+        binding?.view3?.setOnClickListener {
+            startActivity(Intent(this, MasjidBaalawiActivity::class.java))
+        }
+
+        binding?.view4?.setOnClickListener {
+            startActivity(Intent(this, MasjidAlMuhdhorActivity::class.java))
+        }
+
     }
 
     override fun onDestroy() {

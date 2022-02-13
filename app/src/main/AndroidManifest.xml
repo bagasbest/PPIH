@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPIH">
         <activity
+            android:name=".feature.sejarah_masjid_tarim.MasjidAlMuhdhorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.sejarah_masjid_tarim.MasjidAssegafActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.sejarah_masjid_tarim.MasjidBaalawiActivity"
+            android:exported="false" />
+        <activity
             android:name=".feature.sejarah_masjid_tarim.MasjidFathActivity"
             android:exported="false" />
         <activity

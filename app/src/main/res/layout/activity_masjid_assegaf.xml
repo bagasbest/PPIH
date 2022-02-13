@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.sejarah_masjid_tarim.MasjidAssegafActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masjid AsSegaf"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/masjid_assegaf"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:contentDescription="@string/image"
+                app:riv_corner_radius="10dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="Pendiri Masjid As-Seggaf" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Masjid As-Seggaf didirkan oleh Sayidina al-Habib Abdurrahman bin Muhammad Maula ad-Dawilah (yang mashur atau terkenal dengan nama As-Seggaf) pada abad kedelapan tepat pada tahun 768 Hijrah. Beliu merupakan pemimpinnya orang-orang arif, ahli ilmu dan ibadah. Lahir di kota Tarim yang penuh berkah pada 739 Hijriah." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:text="Sayidina Al-Habib Abdurrahman as-Seggaf pernah berkata, ''Tidaklah aku memulai dalam pembangun masjid ini keculai Imam yang empat berada di masing-masing tiang masjid dan Rasulullah berada di kiblat/mihrab masjid.''" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:text="Maksud dari perkataan beliau 'Imam yang empat' adalah Sayidina Abu Bakar, Umar, Utsmam dan Ali ra. Ada juga yang mengatakan bahwa 'Imam yang empat' tiada lain adalah Imam Hanafi, Malik, Syafii dan Ahmad." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="Keutamaan Masjid As-Seggaf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Al-Habib Ali bin Muhammad al-Habsyi berkata, ''Dua rakaat di Masjid as-Seggaf lebih baik dari dunia dan seisinya.''"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sayidina  Al-Habib Abdurrahman as-Seggaf berkata, ''Tidaklah aku memulai dalam pembangun masjid ini keculai Imam yang empat berada di masing-masing tiang masjid dan Rasulullah berada di kiblat/mihrab masjid.''"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Doa mustajab diantra dua tiang. Dan putri dari Sayidina al-Habib Abdurrahman as-Seggaf yang bernama Maryam pernah berkata, ''Barangsiapa yang memiliki hajat maka hendaklah datang ke masjid abahku pada malam Senin dan Kamis. Dan hendaklah berdiri dipekarangan masjid tempat para jamaah duduk bersimpu mendengarkan lantunan hadrah. Lalu hendaklah berdoa, maka insyaallah apa yang diinginkan akan didapatkan.''"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Al-Habib Alwi bin Syihab pernah berkata, ''Barang siapa yang mempunyai penyakit maka hendaklah ia mengambil air di jabiah Masjid As-Seggaf dan mandi disna, maka insyallah Allah akan menyembuhkan penyakitnya.''"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:text="Subhanllah. Akhirnya mudah-mudahan Allah Swt memberikan kepada kita nikmat senantiasa berziarah di masjid ini, juga nikmat beribadah di dalam masjid ini, serta mendapatkan sirr dan keberkahan. Dan buat yang belum bisa berziarah, semoga diberikan nikmat bisa ziarah ke kota Tarim dan bisa sampai di Masjid As-Seggaf yang mulia dan penuh cahaya." />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

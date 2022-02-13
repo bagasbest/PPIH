@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.sejarah_masjid_tarim.MasjidAlMuhdhorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masjid Al-Muhdhor"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/masjid_almuhdhor"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:contentDescription="@string/image"
+                app:riv_corner_radius="10dp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Tarim adalah salah satu kota di Provinsi Hadlramaut yang kaya akan kekhazanahan, baik kekhazanahan berupa intelelektual, sejarah, peradaban maupun budaya. Bukti kekhasanahan peradaban dan budaya di kota tersebut adalah banyaknya bangunan-bangunan kuno yang menjadi identitas khusus negeri para habaib, di antaranya adalah Masjid Muhdlor." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:text="Masjid yang menjadi ikon kota Tarim ini  dibangun oleh seorang pemimpin dari Sadah Alawiyin yang bernama Syekh Al-Habib Umar bin Abdurrahman As-segaff bin Muhmmad Maula Dawilah yang nasabnya bersambung kepada Rasullullah SAW yang mulia. Karena itulah masjid ini dikenal juga dengan nama pendirinya yaitu Masjid Syekh Umar Muhdhor. Para ahli sejarah kota Tarim tidak mengetahui secara jelas tahun dibangunnnya Masjid Al-Muhdhor, namun Masjid Al-Muhdhor terus dilakukan perenovasian, dan renovasi terakhir dilakukan pada tahun 1333 H bertepatan dengan 1914 M oleh Awad Sulaiman Afif, seorang arisetak bangunan tanah liat yang banyak ikut campur dalam pembangunan masjid-masjid di kota Tarim. Pada awal berdirinya, ukuran masjid ini hanyalah 63×93 kaki dan pada saat ini ukurannya menjadi 43×54 persegi. Keunikan masjid ini adalah bahan bangunan dan menaranya terbuat dari tanah liat. Tidak Heran jika setiap hari selalu ada peziarah baik domestik maupun ajnabi (foreign) yang datang ke masjid ini." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="Menara Masjid Al-Muhdhor" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:text="Jika menziarahi masjid ini, Anda pasti akan terkagum-kagum pada desain dan ornamen-ornamen yang sangat artistik. Simbol ciri khas bangunan model Yaman begitu menonjol pada setiap detail arsitektur masjid ini. Dan yang paling mempesona dari masjid Muhdlor adalah menaranya. Menaranya murni terbuat dari labin, yaitu tanah liat yang dikeringkan tanpa dibakar dengan kerangka batang pohon kurma, tanpa menggunakan besi sedikitpun. Menaranya berbentuk persegi empat, berdiri tegak setinggi 34 meter, dengan lima tingkatan yang semakin ke atas semakin mengecil di setiap tingkatannya. Menara ini dihiasi oleh ornamen-ornamen yang memukau, bercatkan kapur putih bersih membuat menara ini tampak gagah nan indah sehingga menjadi pusat pemandangan angkasa Tarim. Hinga saat ini menara Muhdhor menjadi menara tertinggi di dunia yang terbuat dari tanah." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16sp"
+                android:text="Keutamaan Masjid Al-Muhdhor" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:text="Masjid Al-Muhdhor merupakan masjid terbesar di kota Tarim.Tidak hanya terkenal dengan menara tanah liatnya yang menjulang tinggi ke langit, namun juga terkenal dengan keberkahannya. Itulah sebabnya masjid ini menjadi salah satu masjid yang sakral di kota Tarim. Al-Habib Ali bin Abdurrahman Al-Masyhur pernah berkata “Sesungguh Masjid ini (Masjid Al-Muhdhor) merupakan salah satu masjid yang mana ketika berdo'a di dalamnya akan mudah terkabulkan.''" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:text="Pengarang kitab Al-Masyro Ar-Raw menyebutkan dii dalam kitabnya beberapa keutaaman daripada Masjid Al-Muhdor. Diantaranya, ''Tidaklah berdekatan atau bertetangga dengan Masjid Al-Muhdor kecuali ia akan selamat. Dan tidaklah seseorang berdo'a didalamnya memohon berhajat kecuali Allah Swt kabulkan do'anya.''" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:text="Bukan hanya itu, letak Masjid Muhdhor yang berdekatan dengan Masjid Asyiq dan Masjid Ujairoh yang penuh berkah menambah keberkahannya. Syekh Umar Muhdhor yang tidak lain adalah pendiri masjid ini berkata pernah berkata, “Tidak aku bangun masjid ini melainkan kerena berdekannya dengan Masjid Asyid dan Masjid Hujairoh.''" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
