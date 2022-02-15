@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.instansi_pendidikan_di_hadhramaut.UniversitasWasathiyahActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universitas Wasathiyah"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/universitas_wasathiyah"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:contentDescription="@string/image"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Lembaga pendidikan ini didirikan oleh seorang tokoh besar Yaman, seorang pemikir Islam dunia, Al-Habib Al-Allamah Dr. Abu Bakar bin Ali Masyhur Al-'Adni. Sebuah hasil jerih payah dan pengalaman yang diperoleh dari pengelolaan pondok-pondok pesantren dan markaz-markaz pendidikan yang tersebar di berbagai tempat di banyak provinsi Yaman. Jumlahnya mencapai 32 ribat atau pondok pesantren dan 178 markaz pendidikan." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Didirikan pada tahun 2014, institut ini terus berkembang hingga sekarang. Pada awal beroprasi, lembaga ini hanya membuka satu jurusan, yakni Fiqh dan Ushul Fiqh. Untuk tahun-tahun berikutnya akan dibuka fakultas dan jurusan lain demi menyiapkan generasi yang benar-benar memiliki kepedulian besar terhadap pengetahuan, menguasai pengetahuan yang mendalam terhadap ilmu agama, mempunyai pemahaman yang benar terhadap problematika keislaman, dan wawasan sosial kemanusiaan yang universal, serta ikut andil dalam mengembangkan pengetahuan Islam dengan potensi yang dimiliki untuk bisa mengokohkan pondasi Islam yang dibangun atas dasar keadilan dan moderatisme yang sesuai dengan syariat Islam." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text=" Hadhramaut merupakan pusat institut ini, dengan anak cabang yang tersebar di berbagai kota, meliputi Kota Seiyun, Mukalla dan Aden. Misi pendidikan tinggi ini adalah menyiapkan generasi yang berkompeten di bidang ilmu dan akhlak yang berpegang tegung kepada prinsip keadilan dan moderat yang sesuai dengan ajaran syariat Islam (Al-Wasathiyah Al-Syar'iyah) dan memiliki kontruksi ilmu pengetahuan, akhlak, dan keterampilan demi menghadapi tantangan zaman." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Didirikan pada tahun 2014, institut ini terus berkembang hingga sekarang. Pada awal beroprasi, lembaga ini hanya membuka satu jurusan, yakni Fiqh dan Ushul Fiqh. Untuk tahun-tahun berikutnya akan dibuka fakultas dan jurusan lain demi menyiapkan generasi yang benar-benar memiliki kepedulian besar terhProgram studi yang tersedia adalah Tafsir dan Ulumul Qur'an, Hadits dan Ulumul Hadits, Aqidah dan Dakwah, Fiqih dan Ushul Fiqih, serta Dirasat Islamiyah dan Arabiyah. Jika Anda berhasil menyelesaikan program untuk semua jurusan selama 5 tahun dengan satu tahun pertama sebagai kelas persiapan (tamhidy), maka gelar yang kamu dapat adalah Bachelor Degree (S1). Sedangkan gelar Diploma diperuntunkan khusus untuk beberapa jurusan yang ditetapkan oleh Majlis Tinggi Institut Al-Wasathiyah As-Syar'iyah." />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Untuk mendaftar silahkan lihat Persyaratan Umum :"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Tlpn.WA :  Ahmad Faris : +6282124402330 (WA Only) Ahmadfaris481@gmail.com" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Akun Resmi Pelajar Indonesia di Universitas Al Washotiyah : @univ_alwasathiya"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

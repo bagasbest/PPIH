@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.biografi_ulama_hadhramaut.MashadDauanActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/avenir_bold"
+            android:text="MASHAD, DAU'AN"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical"
+            android:padding="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.    Al-Imam Ali bin Hasan Al-Attas (Al-Masyhad)"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/mashad1"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Adalah Al-Imam Ali bin Hasan bin Abdillah bin Husain bin Umar bin Abdurrahman Al-Attas. Beliau adalah orang yang sangat alim dan seorang sufi, keilmuannya ibarat lautan. Memiliki banyak karangan kitab, salah satunya adalah Al-Qirtas yang mensyarahi Ratib Al-Attas dan Kitab Al-Atiyah Al-Haniyah."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau bermukim di daerah bernama Al-Masyhad dan berdakwah di sana, dan menjadikannya sebuah tempat yang penuh keilmuan dan religius setelah sebelumnya merupakan tempat bagi para penjahat dan begal."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat di Al-Masyhad pada tahun 1172 H. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="2.    As-Syaikh Said Al-Amudi (Qaidun)"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau adalah Al-Imam Said bin Isa Al-Amudi Al-Alim Al-murabi Al-Arif billah. Orang yang masyhur akan kewaliannya dan sebagai murabi para muridin, ada pula yang mengatakan bahwa beliau mencapai derajat sebagai wali qutub."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau berguru kepada banyak ulama, salah satunya adalah Al-Faqih Al-Muqaddam; Wafat pada tahun 671 H. di daerah Qaidun di Dauan."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="3.    As-Syaikh Makruf Bajamal (Budah)"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau dilahirkan pada malam Jumat, 9 Ramadan 893 H. Mendapat Pendidikan langsung dari ayahandanya, juga berguru kepada As-Syaikh Abdurrahman Baharmuz. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau sering melaksanakn iktikaf di masjid-masjid yang telah di tinggalkan, dan sangat kuat dalam bermujahadah, sampai selama 15 tahun beliau tidak tidur. Di dalam rumah orang tuanya terdapat 30 tingkat dan beliau membaca di setiap tingkatnya satu juz."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Di antara yang berguru kepadanya adalah As-Syaikh Abu Bakar bin Salim. Beliau wafat pada tanggal 5 Safar 969 H."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="4.    As-Syaikh Abdullah Basaudan (Kharibah)"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/mashad2"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Adalah As-Syaikh Abdullah bin Ahmad Basaudan. Seorang Syaikh Al-Muhaqiq dalam semua bidang keilmuan. Banyak ulama yang berguru kepada beliau, antara lain: Al-Habib Umar Al-Bar, Al-Habib Ahmad bin Hasan Al-Haddad dan Al-Habib Aydrus bin Umar."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau merupakan salah seorang yang berjuluk Abadillah yang masyhur dalam segi keilmuan dan kewaliannya. Orang yang sangat giat mengikuti sunah Nabi saw. dan sangat mencintai keluarga Rasulullah saw."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat pada tanggal 7 Jumadilula 1266 H. di daerah Kharibah."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="5.    Al-Habib Ahmad Al-Muhdar (Quairah)"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/mashad3"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Adalah Al-Imam Ahmad bin Muhammad bin Alwi Al-Muhdar, salah seorang yang makrifat billah; dilahirkan pada tahun 1217 H."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau berguru kepada banyak ulama, antara lain: Al-Habib Hasan bin Saleh Al-Bahr—Al-Habib Abdullah bin Yahya—dan Syaikh Abdullah Basaudan."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau merupakan orang yang sangat cinta kepda Al-Quran, setiap harinya selalu mengkhatamkan Al-Quran. Bahkan dikisahkan bahwa saat makamnya digali, dijumpai ia sedang membaca Al-Quran. Ada pula yang mengatakan bahwa ia mengkhatamkan Al-Quran sebanyak tujuh ribu kali."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau juga salah seorang yang berjumpa dengan Nabi saw. dalam keadaan sadar (bukan dalam mimpi) dan mempunyai hubungan erat dengan Sayidah Khadijah Al-Kubra Istri Nabi saw."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Wafat pada malam Kamis, 7 Safar 1304 H. di daerah Quairah di Wadi Dauan dan meninggalkan putra bernama Hamid, Muhammad, dan Mustafa."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

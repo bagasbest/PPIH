@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.instansi_pendidikan_di_hadhramaut.RibathIlmiSyarifSeiyunActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Ribath Ilmi Syarif Seiyun,\nHadhramaut Yaman."
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/ribath_ilmi_syarif_seiyum"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:rotation="-90"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/image"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Persyaratan umum :" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Harus memiliki akhlak yang baik."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bisa berbahasa arab dengan baik."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Menyerahkan scanan pasport."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Melampirkan raport ketika di pondok apabila ada."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ada surat pengantar dari ma’had asal di Indonesia."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Siap untuk mengikuti peraturan rubath ilmi syarif."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Telp./WA :" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+967736198475 (Yaman)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+6288225815586 (Bali)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+6282129805421 (Bali)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+6285808260487 (Malang)."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Akun Resmi Pelajar Indonesia di Ribath Ilmi Syarif,Seiyun : @alrebath_110"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

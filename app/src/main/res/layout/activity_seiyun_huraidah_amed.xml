@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.biografi_ulama_hadhramaut.SeiyunHuraidahAmedActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/avenir_bold"
+            android:text="SEIYUN, HURAIDAH, AMED"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical"
+            android:padding="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.    Al-Imam Al-Muhajir Ila Allah Ahmad bin Isa (Husaisah)"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/seiyun1"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Nama lengkap Beliau adalah Ahmad bin Isa bin Muhammad bin Ali bin Jakfar bin Muhammad bin Ali bin Al-Husain bin Ali bin Abi Thalib ra. Dilahirkan di Bashrah (Iraq) pada tahun 260 H. dan tumbuh besar di sana. Lalu hijrah dari Bashrah bersama keluarga dan orang-orang yang mengikutinya pada tahun 317 H. kemudian akhirnya menetap di tanah Hadhramaut. Beliau wafat pada tahun 345 H. dan dimakamkan di tempat yang tidak asing lagi, yaitu daerah Husaisah di Hadhramaut. Beliau meninggalkan dua keturuan yang salih, yaitu Ubaidillah dan Muhammad-yang beliau tinggalkan di Bashrah."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="2.    Ubaidillah bin Ahmad (Bur)"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau adalah Al-Imam Ubaidillah bin Ahmad bin Isa Al-Muhajir, orang yang sangat tawaduk, beliau enggan menyandang nama Abdullah (hamba Allah) begitu saja, namun mentasgir (mengecilkan) nama “Abd” dari yang berarti seorang hamba menjadi “Ubaid” yang berarti hamba yang rendah. Sehingga jadilah nama beliau adalah Ubaidillah. Hal itu beliau lakukan atas dasar mengagungkan nama Tuhannya dan menganggap rendah diri sendiri. Beliau adalah orang yang mewarisi keilmuan, kezuhudan serta ibadah dari ayahandanya. Beliau wafat pada tahun 383 H. dan dimakamkan di Hadramaut daerah (بسمل), serta meninggalkan tiga putra, mereka adalah Alwi, Jadid dan Bashri."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="3.    Alwi bin Ubaidillah (Taribah)"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau adalah Al-Imam Alwi bin Ubaidillah bin Ahmad bin Isa Al-Muhajir. Beliau dilahirkan dan besar di Hadhramaut. Beliau merupakan orang yang pertama kali menyandang nama Alwi, dan merupakan asal mula keturunan Aal Abi Alawi. Beliau adalah orang yang banyak bersedekah dan berbuat baik kepada orang lain. diriwayatkan bahwa saat Beliau pergi ke tanah suci untuk menunaikan ibadah haji dan menziarahi makbarah kakeknya, Rasulullah saw., ada sekitar 80 orang laki-laki selain keluarga dan kerabatnya yang ikut serta bersamanya. Dan beliau lah yang menanggung semua nafkah mereka selama perjalanan haji tersebut hingga kembali."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat setelah tahun ke-300 H. dan dimakamkan di daerah Taribah, ada yang mengatakan di daerah Bait Jubair, serta meninggalkan seorang putra bernama Muhammad."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="4.    Muhammad bin Alwi bin Ubaidillah Maula Saumah (Bait Jubair)"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Al-Muhajir. Dilahirkan dan besar di daerah Bait Jubair. Beliau merupakan orang yang diberi karunia oleh Allah kekuatan dalam berbicara dengan kefasihan lisan dan balaghah serta ucapan yang mengandung hikmah dan kebaikan."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau memiliki banyak kitab karangan yang antara lain adalah Al-Futuhat Al-Ghaibah wa Al-Ulum Al-Laduniyah. Wafat di usia 56 tahun dan dimakamkan di Bait Jubair, tidak jelas diketahui tepatnya tahun lahir dan wafatnya. Beliau meninggalkan seorang putra bernama Alwi."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="5.    Alwi bin Muhammad bin Alwi (Bait Jubair)"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Adalah Al-Imam Alwi bin Muhammad bin Alwi bin Ubaidillah bin Ahmad bin Isa Al-Muhajir. Dilahirkan dan dibesarkan di daerah Bait Jubair. Beliau merupakan orang yang sangat dermawan dan santun kepada orang-orang, dan juga orang yang sangat meneladani adab-adab syariat."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat di Bait Jubair pada tahun 512 H. dan meninggalkan dua orang putra, yaitu Salim dan Ali, dan seorang putri bernama Fatimah."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="6.    As-Syaikh Umar Bamahramah (Seiun)"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Adalah Al-Imam Al-Alim Al-Faqih As-Sufi Umar bin Abdullah Bamahramah. Beliau mengambil sanad keilmuan dari beberapa guru, diantaranya adalah Al-Imam Abu Bakar Al-Adni, As-Syaikh Bahurmuz dan beberapa Ulama di tanah Haramain"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau pernah menggubah sebuah kasidah, yang sudah tidak asing lagi, pada saat menghadap makbarah yang mulia, Rasulullah saw. sehingga menjadikan wajahnya dipenuhi cahaya dan menyeruak bau harum melebihi misik."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau memiliki banyak karamah, juga termasuk ahli kasyaf al-jali, dan memiliki diwan syair yang banyak dijadikan sebagai referensi para ulama dan auliya."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat pada tahun 952 H. di Kota Seiun. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="7.    Al-Imam Ali bin Abdullah As-Seggaf (Seiun)"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Adalah seorang imam terkemuka di masanya, orang yang telah bermujahadah dari awal usianya, dan hidup dalam kesulitan. Selain itu, beliau adalah orang yang sabar dan qanaah serta banyak beribadah dan mencari ilmu."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau berguru kepada Al-Imam Al-Haddad dan Al-Imam Ali bin Abdillah Al-Aydrus dan lainnya. Beliau Wafat di Kota Seiun di tempat yang sudah masyhur di samping masjid Beliau."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.    Al-Habib Ali bin Muhammad Al-Habsyi (Seiun)"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/seiyun2"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Adalah Al-Imam Ali bin Muhammad bin Husain Al-Habsyi. Dilahirkan pada Hari Jumat, 24 Syawal tahun 1259 H. di daerah Qasam. Beliau Menimba Ilmu dari beberapa ulama, diantaranya: Al-Habib Abu Bakar bin Abdillah Al-Attas dan orang tua beliau sendiri. Beliau adalah orang yang alim, ahli ibadah, wirai dan orang yang zuhud dan gigih semenjak kecil. Ketika beliau hendak memberi mauizah dalam sebuah majelis orang-orang dapat menangis di saat beliau baru berdiri tegak bahkan sebelum berbicara."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Ribat Seiun dan Masjid Ar-Riyad adalah diantara beberapa peninggalan yang dibangun olehnya. Beliau wafat di Kota Seiun pada Hari Ahad, 20 Rabiutsani tahun 1333 H."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="9.    Al-Habib Muhammad bin Hadi As-Seggaf"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Salah seorang ulama yang sangat alim di zamannya. Beliau dilahirkan di Kota Seiun pada tahun 1292 H. dan mendapat pendidikan dari orang tua beliau serta selalu mendapat pengawasan secara langsung tanpa pernah lalai."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau juga berguru kepada beberapa ulama, di antaranya: Al-Habib Ubaidillah bin Muhsin As-Seggaf dan Al-Habib Aydrus bin Umar dan Al-Habib Ali Al-Habsyi."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau memiliki beberapa karya tulis dan sighat salawat yang banyak memberi manfaat. Dan wafat pada bulan Rajab pada tahun 1382 H."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.    Al-Imam Ahmad bin Zain Al-Habsyi (Hautah)"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/seiyun3"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Adalah Al-Imam Ahmad bin Zain Al-Habsyi yang memiliki gelar As-Syafii kecil, dan mendapat julukan bapak para masjid."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau berguru dan mendapat pendidikan langsung dari ayahandanya, dan berguru pula kepada pamannya, Aydrus dan Al-Faqih Muhammad Bajamal. Kemudian kepada Al-Imam Al-Haddad, dan kepada beberapa ulama lainnya."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau adalah orang yang wirai dan termasuk ahli kasyaf al-Jali, memiliki banyak kitab karangan (di antaranya kitab Ar-Risalah Al-Jamiah), dan seorang dai ilallah dengan ucapan serta tingkah laku."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat pada Hari Jumat tanggal 19 Syakban tahun 1144 H. dan dimakamkan di Hautah."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11.    Al-Imam Muhammad bin Zain bin Sumaith (Syibam)"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:id="@+id/seiyun4"
+                android:rotation="-90"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Adalah salah seorang wali asshalihin dan ulama alamilin. Beliau menimba ilmu dari banyak ulama di masanya, di antaranya adalah Imam Al-Haddad."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau merupakan orang yang memiliki peran besar dalam dakwah Islam di Kota Syibam dan lainnya. Beliau memiliki wirid di setiap harinya membaca satu juz dari kitab Ihya Ulumiddin (karya Imam Al-Ghazali)."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Di antara banyak orang yang berguru kepada beliau adalah Al-Imam Abdullah bin Alwi Al-Habsyi. Beliau wafat dan dimakamkan di Kota Syibam pada tanggal 23 Rabiulawal tahun 1172 H."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.    Al-Imam Ahmad bin Umar bin Sumaith (Syibam)"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:id="@+id/seiyun5"
+                android:rotation="-90"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="30dp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Adalah Al-Imam Ahmad bin Umar bin Zain Bin Sumaith. Menimba ilmu dari beberapa ulama, di antaranya: orang tua beliau sendiri, dan Al-Imam Hamid bin Umar serta Al-Imam Umar bin Seggaf."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Di antara orang yang berguru kepada beliau adalah Al-Habib Abu Bakar Al-Attas dan Al-Habib Aydrus bin Umar."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Di antara orang yang berguru kepada beliau adalah Al-Habib Abu Bakar Al-Attas dan Al-Habib Aydrus bin Umar."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau adalah orang yang dicintai Rasulullah saw. sebagaimana dikisahkan oleh sebagian orang saleh, dan ceritanya telah masyhur."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Wafat pada tahun 1257/1258 H. dan dimakamkan di Kota Syibam."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13.    As-Syaikh Abdullah bin Muhammad Baabbad (Syibam)"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/seiyun6"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau dikenal dengan Al-Qadim. Dilahirkan di Kota Syibam. Ayahandanya wafat saat ia masih kecil. Ketika beranjak dewasa ia menghadap kepada Al-Faqih Al-Muqaddam untuk menimba ilmu. Beliau sangat dicintai oleh Al-Faqih Al-Muqaddam."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Di antara wirid kesehariannya adalah salat sunah 400 rakaat dan juga banyak ibadah-ibadah yang lainnya."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Banyak pula para ulama yang berguru kepadanya. Beliau pindah ke daerah Gurfah karena sebab tertentu, membangun masjid dan wafat pada tahun 687 H. di sana dan dimakamkan di makbarah Kota Syibam. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14.    Al-Habib Aydrus bin Umar Al-Habsyi (Ghurfah)"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/seiyun7"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Adalah Al-Imam Aydrus bin Umar bin Aydrus Al-Habsyi. Dilahirkan pada permulaan bulan Muharam tahun 1237 H. Al-Habib Ahmad bin Hasan bekomentar tentang beliau, “Sungguh dia (Al-Habib Aydrus) telah diberi karunia berupa derajat Al-Imam Al-Faqih Al-Muqaddam.”"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Dalam kitab Tajul Arus disebutkan bahwa Al-Habib Aydrus telah melihat Rasulullah saw. di saat usia delapan tahun."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Al-Habib Aydrus menimba ilmu dari beberapa guru, di antaranya: Al-Habib Hasan bin Saleh dan Al-Habib Abdullah bin Husain bin Thahir. Beliau juga memiliki beberapa kitab karangan, di antaranya adalah kitab “Akdul Yawaqit”."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat pada Malam Senin, tanggal 9 Rajab pada tahun 1314 H. di daerah Gurfah."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15.    Al-Habib Hasan bin Saleh Al-Bahr (Zi Asbah)"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/seiyun8"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Adalah Al-Imam Al-Hasan bin Saleh bin Aydrus Al-Bahr Al-Jufri. Dilahirkan di Kota Hautah pada tahun 1191 H. Menimba Ilmu dari beberapa ulama, di antaranya: Al-Habib Umar bin Seggaf yang merupakan syaikh futuhnya, dan saudaranya Alwi serta Al-Habib Syaikh Al-Jufri."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau adalah orang yang dikenal sebagai sandaran bagi para fakir dan miskin, akhlaknya adalah akhlak para nabi, dan senantiasa berpegang kepada manhaj yang lurus."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Di antara orang yang berguru kepada beliau adalah: Al-Habib Abu Bakar Al-Attas dan Al-Habib Aydrus bin Umar."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat di Bulan Zulkaidah pada tahun 1273 H. di desa yang bernama Zi Asbah."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16.    Abdurrahman Al-Jufri (Taris)"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/seiyun9"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Adalah Al-Imam Abdurrahman bin Muhammad bin Abdillah bin Alwi bin Abi Bakar Al-Jufri. Dilahirkan di daerah Taris wilayah Hadhramaut. Berguru kepada ayahanda beliau sendiri dan kepada As-Syaikh Abu Bakar bin Salim."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau juga pergi ke tanah Haramain dan menunaikan ibadah haji dan umrah, serta menimba ilmu dari beberapa guru di sana."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau merupakan orang yang sangat memuliakan para tamu dan orang asing yang singgah, serta para fakir dan miskin. Termasuk orang yang doanya mustajab."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat pada tahun 1037 H. dan dimakamkan di Taris serta dibangun kubah dipemakamannya."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17.    Al-Habib Abu Bakar Al-Attas (Huraidah)"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau adalah Al-Imam Abu Bakar bin Abdillah bin Thalib Al-Attas. Dilahirkan pada tanggal 16 Jumadal Ula tahun 1216 H."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau mengambil sanad keilmuan dari banyak ulama, antara lain: Al-Imam Ahmad bin Umar bin Sumaith dan Al-Imam Al-Hasan Al-Bahr."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Semasa kecilanya beliau pulang-pergi dari Huraidah menuju Kota Syibam untuk berguru kepada Al-Habib Ahmad bin Sumaith dalam waktu satu atau dua jam, sementara jarak antara Huraidah dan Syibam sangatlah jauh."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Di antara yang berguru kepada Al-Habib Abu Bakar Al-Attas adalah: Putra-putranya, Al-Habib Ahmad bin Hasan dan Al-Habib Ali bin Muhammad Al-Habsyi."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau adalah seorang wali qutub pada zamannya yang memiliki banyak karomah. Wafat pada 17 Zulkaidah 1281 H. di daerah Huraidah."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18.    Al-Habib Shaleh bin Abdillah Al-Attas (Wadi Amed)"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/seiyun10"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau dilahirkan pada tahun 1205 H. Merupakan salah seorang wali yang memiliki derajat yang tinggi dan ahli kasyaf. Beliau berguru kepada seorang muhadis (ahli hadis) bernama Muhammad bin Sulaiman Al-Ahldal dan kepada As-Syaikh Abdullah Basaudan."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau adalah orang yang sangat istiqamah dan doanya mustajab. Di antara yang berguru kepadanya adalah: Al-Habib Ahmad bin Hasan Al-Attas. Beliau wafat pada tahun 1279 H. di daerah Wadi Amed dan dimakamkan di sana."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

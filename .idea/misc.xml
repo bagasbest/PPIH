@@ -7,6 +7,8 @@
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/drawable/bg_gradient2.xml" value="0.1765" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/drawable/bg_rounded.xml" value="0.1765" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_contact.xml" value="0.23645833333333333" />
+        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_darul_mustafa.xml" value="0.21028253821213524" />
+        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_daruz_zahra.xml" value="0.23645833333333333" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_donate.xml" value="0.264" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_f1_home.xml" value="0.23645833333333333" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_f2_home.xml" value="0.23645833333333333" />
@@ -15,13 +17,22 @@
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_f5_home.xml" value="0.23645833333333333" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_feedback.xml" value="0.23645833333333333" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_feedback_add.xml" value="0.23645833333333333" />
+        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_inad_qasam_hud.xml" value="0.2" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_main.xml" value="0.19591576260370133" />
+        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_mashad_dauan.xml" value="0.16" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_masjid_al_muhdhor.xml" value="0.22239583333333332" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_masjid_assegaf.xml" value="0.18515497553017946" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_masjid_baalawi.xml" value="0.2" />
-        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_masjid_fath.xml" value="0.176" />
+        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_masjid_fath.xml" value="0.1" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_masjid_jami.xml" value="0.2" />
+        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_pdfactivity.xml" value="0.23645833333333333" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_profile.xml" value="0.23645833333333333" />
+        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_ribath_al_fath_wal_imdad.xml" value="0.264" />
+        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_ribath_ilmi_syarif_seiyun.xml" value="0.22239583333333332" />
+        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_seiyun_huraidah_amed.xml" value="0.1" />
+        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_tarim.xml" value="0.14299212598425196" />
+        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_universitas_al_ahgaff.xml" value="0.19123841617523168" />
+        <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/activity_universitas_wasathiyah.xml" value="0.2" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/header.xml" value="0.23645833333333333" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/layout/item_feedback.xml" value="0.264" />
         <entry key="..\:/TUBES_GALERI/PPIH/app/src/main/res/menu/main_menu.xml" value="0.23645833333333333" />

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.instansi_pendidikan_di_hadhramaut.UniversitasAlAhgaffActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universitas Al-Ahgaff"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/universitas_alahgaff"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:contentDescription="@string/image"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Universitas Al-Ahgaff Yaman merupakan Universitas Internasional Islam di Timur Tengah yang berbasis Syafi'iyyah. Dan telah menjadi anggota gabungan negara-negara Arab. Selain itu Universitas Al-Ahgaff memiliki perpustakaan terbesar dan terlengkap nomor 2 di Replubik Yaman karena menyimpan manuskrip-manuskrip monumental ulama-ulama salaf." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Al-Ahgaff yang didirikan oleh Al-Habib Abdullah bin Mahfuzh bin Muhammad Al-Haddad dan resmi berdiri serta mulai membuka proses pendidikannya setelah mendapatkan izin resmi dari pemerintah Yaman melalui ketetapan, pendidikan Yaman nomor: 5 tahun 1994. Universitas Al-Ahgaff juga satu di antara universitas di jazirah Arab yang resmi sebagai anggota persatuan universitas Arab. (Ittihad Al-Jami'at Al-Arabiyyah)." />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tujuan Pendirian"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Berawal dari sebuah keinginan untuk bisa menyediakan sarana pendidikan yang bonafid dan berkualitas pada masyarakat muslim dunia, pendidikan yang mampu mencetak kader insan yang menguasai segala aspek kehidupan dan menanamkan ruh Islami serta akidah yang benar dalam pribadi pelajarnya." />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Letak Geografis"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Universitas Al-Ahgaff berpusat di kota Mukalla ibu kota provinsi Hadramaut Republik Yaman. Segenap komponen yang dimiliki oleh Al-Ahgaff, seperti fakultas-fakultasnya, pusat bahasa atau sekolah persiapan bagi mahasiswa baru, dan gedung rektor sebagai pengendali utama kebijakan-kebijakannya semua berada di kota yang berada di ujung semenanjung Arab ini. Hanya fakultas Syari'ah dan hukum saja yang berada di kota Tarim, hal ini sengaja dilakukan guna terwujudnya pendidikan syari'ah yang tidak berpusat di bangku sekolah belaka, tetapi perlu adanya pengkombinasian metode pendidikan melalui bi'ah (lingkungan), mengingat kota Tarim terkenal sebagai kota ilmu dan ulama. Kota Tarim sendiri terletak sekitar kurang lebih 300 km dari ibu kota provinsi." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Alasan lain ditempatkannya fakultas Syari'ah dan hukum terpisah dengan induknya di antarnya adalah faktor kultur sosial kemasyarakatan kota ini yang sangat mendukung untuk dijadikan sebagai tempat mendalami ilmu syariat Islam. Juga kerena faktor sejarah, yang telah mendorong ditempatkannya fakulas ini dikota Tarim. Sebab yang berkembang telah kita ketahui bahwa dari sinilah Islam di beberapa belahan dunia (seperti Asia dan Afrika) bisa menyebar dan berkembang dengan pesat berkat kegigihan dan keikhlasan para tokohnya dalam berdakwah memberlakukan Islam." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metode Pengajaran"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Metode yang ditetapkan oleh Universitas Al-Ahgaff selama ini adalah semester sistem, jenjang pendidikan yang terdiri dari sepuluh semester dan bisa dicapai minimal selama lima tahun, dan maksimal selama tujuh tahun (untuk fakultas sya'riah dan hukum, fakultas Sastra, Serta fakultas kajian Islam) dan delapan tahun (untuk fakultas Tehnik, Fakultas Ekonomi, serta Fakultas Ilmu dan Teknologi). Dan perlu diketahui bahwa Universitas yang berlambangkan mesjid Umar Muhdhar ini telah membuka program pasca sarjana dan doktoral di jurusan syari'at dan jurusan sastra bahasa Arab. Dan untuk pelajar Indonesia hanya diarahkan kepada:" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="1. Fakultas Syari'ah dan hukum dan Hadis dan Ilmu Hadis untuk para mahasiswanya" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="2. Fakultas Dirasah Islamiah untuk para mahasiswinya" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Untuk menghindari ketidak seriusan mahasiswa nya dalam belajar, juga dalam rangka pengawasan mutu serta kualitas keilmuan alumninya, maka Al-Ahgaff menerapkan sistem absensi pada setiap mata kuliah. Di mana ketidak hadiran mahasiswa pada satu mata kuliah itu akan sangat mempengaruhi kelulusan mata kuliah tersebut. Dalam prosentasi absen, mahasiswa yang tidak hadir melebihi batas 10% dari materi jam akan menjawab gagal dalam materi tersebut. Mungkin inilah yang menjadi salah satu ciri khas dari Universitas Al-Ahgaff yang sama, yang tidak mengizinkan mahasiswanya berintisab (persamaan)." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waktu Kuliah"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Waktu kuliahnya adalah setiap hari selain hari Jumat, dimulai pukul 08.00 pagi sampai pukul 01.00 siang dari paket mata kuliah yang sudah ditentukan oleh pihak kuliah." />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bahasa Pengangtar Kuliah"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Adapun bahasa pengantar yang digunakan pada setiap kuliahnya adalah bahasa Arab. Dan ini bukan satu-satunya bahasa yang boleh digunakan di universitas ini, sebab Majelis Universitas sebagai dewan tertinggi di Al-Ahgaff mempunyai kewenangan untuk menerapkan selain bahasa Arab pada sebagian mata kuliah di samping ilmu agama, beberapa meteri pelajaran yang menggunakan bahasa Inggris." />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profil Fakultas Syari'ah wal Qanun, Fakultas Dirasah Islamiah dan Fakultas Hadis dan Ilmu Hadis"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a.    Fakultas Syari'ah dan Hukum"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Fakultas Syari'ah dan Hukum adalah salah satu Fakultas yang ada di Universitas Al-Ahgaff yang ditempatkan disebuah kota Tarim, Universitas Al-Ahgaff dengan fakultas Syari'ah dan Hukumnya telah mencoba memasukkan dan menggabungkan tradisi salaf dan khalaf." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mata Kuliah Fakultas Syari'ah dan Hukum"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Secara umum mata kuliah fakultas ini didominasi oleh pelajaran agama, walaupun dikaji pula tentang ilmu hukum (hukum-hukum yang berlaku dan diterapkan di Republik Yaman). Prosentasi antara kajian syari'ah dan kajian hukum difakultas ini mungkin sekitar 70 % syari'ah dan 30 % hukum." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Di antara disiplin ilmu syari'ah yang dikaji disini adalah: Fikih Madzhabi, Perbandingan Fikih, Ushul Fikih, Tareh Tasyri ', Ahwal Syahsiyyah, Ulumul Qur'an, Maqashid Syari'ah, Ayat Ahkam, Hadist Ahkam, Nahwu, Lughat Arabiah, Mantiq, Balaghah dan lain sebagainya." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Kemudian di antara ilmu hukum yang dikaji di fakultas ini adalah : Madkhal Qanun, Qanun Madany, Qanun Uqubat, Qanun Iltizamat, Qanun Dustury, Qanun Dauly, Qanun Murafa’at, dan lain sebagainya." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Selain itu, di fakultas ini juga dikaji beberapa disiplin ilmu yang erat hubungannya dengan dua disiplin ilmu tadi, diantaranya adalah: Iqtishod Islami (ekonomi Islam), Al-Uqud Al-Musammah, Al-Maliyyah Al-Ammah yang mengupas tentang ekonomi dan keuangan menurut kaca mata Islam dan Ushul Bahts yang membahas tentang tata cara menulis karya ilmiah, sebagai bekal para mahasiswanya untuk dapat menulis dengan baik serta berbobot." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Dan juga fakultas syari’ah dan hukum Universitas Al-Ahgaff bukan hanya sebatas mengkaji dan memahami seluk beluk agama dan ilmu-ilmu yang terkait dengan syari’ah dan hukum. Akan tetapi lebih dari itu, sebab faktor  amaliyah pun di fakultas ini sangat ditekankan dan diperhatikan oleh para pemangkunya. Ini juga jelas sangat erat hubungannya dengan kondisi kota Tarim dimana fakultas ini berada yang masih belum terpolusi oleh  kebudayaan-kebudayaan non Islami. Sehingga yang selama ini dirasakan oleh para mahasiswanya adalah ketenangan jasmani dan rohani yang benar-benar tak pernah ditemukan di universitas-universitas lain." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Fakultas Dirasah Islamiah"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Adalah salah satu fakultas di Universitas Al-Ahgaff dalam jurusan ilmu-ilmu keislaman dirasah Islamiah. Para mahasiswi dibekali berbagai ilmu keislaman yang sesuai dengan kebutuhan zaman sehingga dapat menjadi wanita yang berwawasan keislaman yang kuat." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mata Kuliah Fakultas Dirasah Islamiah:"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Adapun mata kuliah yang dipelajari di Fakultas Dirasah Islamiyyah Antara lain; Fikih, Nahwu, Tilawah dan Tajwid, Tadbir Manzily, Madhkal ila ‘ilmi nafs, Ulumul Qur’an, Tareh Tasyri’, Usul Tarbiah, Tafsir, Dirasah khasah, Sirah, Balagah, Ayatul Ahkam, Ahaditsul Ahkam Ushul fikih, Manahij Bahast, Tarku tadris, Suluk Komputer, Skripsi, Praktek lapangan, Musthalahul Hadis." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Fakultas Hadis dan Ilmu Hadis"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Fakultas hadis dan ilmu hadis merupakan fakultas baru yang diadakan pada tahun 2020 M. Fakultas Hadis  dan ilmu Hadis adalah salah satu Fakultas yang ada di Universitas Al-Ahgaff yang ditempatkan di kota Tarim, Universitas Al-Ahgaff dengan fakultas Hadis dan ilmu hadis telah mencoba memasukkan memasukkan dan menggabungkan tradisi salaf dan khalaf. Adapun mata kuliah Fakultas Hadis dan Ilmu Hadis secara umum, mata kuliah fakultas ini didominasi oleh pelajaran yang ada di Fakultas Syariah dan Hukum.	Di antara disiplin ilmu syari'ah yang dikaji disini adalah: Fikih Madzhabi, Perbandingan Fikih, Ushul Fikih, Sharf, Nahwu, Lughat Arabiah, Mantiq, Balaghah, Kemudian di antara ilmu Hadis yang dikaji di fakultas ini adalah : Hadis Ahkam, Musthalaul Hadits, Jarh wa Ta’dil, Tarikh Tadwin As-Sunnah, Sunan Abu Dawud, Kutubu Sittah." />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Informasi pendaftaran dan lainnya Selengkapnya di:" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://maktabalahgaffindo.wordpress.com/sekilas-tentang-universitas-al-ahgaff/"
+                android:textStyle="italic"
+                android:textColor="@android:color/holo_blue_dark"  />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Akun Resmi Pelajar Indonesia di Al Ahgaff : @ahgaffpos.official" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -105,7 +105,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/avenir_bold"
-        android:text="Selum, Huraidah, Amed"
+        android:text="Seiyun, Huraidah, Amed"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view3"

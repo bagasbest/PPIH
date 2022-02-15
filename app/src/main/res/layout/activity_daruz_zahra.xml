@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.instansi_pendidikan_di_hadhramaut.DaruzZahraActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Darul Zahra"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/darul_zahra"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/image"
+                app:riv_corner_radius="10dp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Darul Zahra didirikan pada tahun 1418 /1998 M dan diresmikan pada tahun 1422 H/2001 M. Darul Zahra merupakan sebuah pusat pendidikan khusus bagi kaum perempuan dari dalam maupun luar negara. Bagi para pelajar perempuan yang berkeinginan untuk melanjutkan pendidikan ke Darul Zahra perlu mendaftarkan diri terlebih dahulu dengan mengisi formulir di dalam laman web Darul Zahra." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sisitem pendidikan"
+                android:layout_marginTop="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Sistem pendidikan di Darul Zahra adalah sebagai berikut:" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Pengajian ulum syari'ah. Metode resmi terbagi menjadi 4 peringkat" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="1."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ibtida'i (permulaan) dalam jangka waktu 1 tahun."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="2."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I'dadi (menengah rendah) dalam jangka waktu 3 tahun."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="3."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thanawi (menengah tinggi) dalam jangka waktu 3 tahun."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="4."
+                    android:textColor="@color/black" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Takhassus dalam jangka waktu 3 tahun."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Syarat masuk Darul Zahra" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="1."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Memperbaiki niat untuk berkhidmat kepada agama islam dan seluruh muslimin serta berdakwah di jalan Alllah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="2."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berusia 16 tahun keatas."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="3."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Perjalanan harus didampingi mahram."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="4."
+                    android:textColor="@color/black"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tekun dan gigih dalam mengikuti segala program harian di dalam pengajian, menjaga shalat jama'ah dan lain-lain."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="5."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pelajar perlu datang ke Darul Zahra pada awal bulan juli, setelah permintaan masuk belajar sudah diterima."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="6."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pelajar bersedia untuk membayar uang iuran yang sudah ditentukan."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

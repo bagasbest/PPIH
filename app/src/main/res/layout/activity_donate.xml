@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16sp"
             android:fontFamily="@font/avenir_bold"
-            android:text="Nomor Rekening: "
+            android:text="Nomor Rekening: 3780439580"
             android:textColor="@color/black"
             android:textSize="16sp"/>
 
@@ -60,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/avenir_bold"
-            android:text="Bank: "
+            android:text="Bank: BCA"
             android:textColor="@color/black"
             android:textSize="16sp" />
 
@@ -69,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/avenir_bold"
-            android:text="Atas Nama: "
+            android:text="Atas Nama: Aufabillah Aldiono"
             android:textColor="@color/black"
             android:textSize="16sp" />
 

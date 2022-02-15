@@ -10,7 +10,7 @@
     <View
         android:id="@+id/view10"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="150dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="20dp"
@@ -45,7 +45,7 @@
         android:layout_marginStart="16sp"
         android:layout_marginEnd="16sp"
         android:fontFamily="@font/avenir_regular"
-        android:text="Berikut ini Contct Person kami:"
+        android:text="Jika ada pertanyaan silahkan menghubungi contact person kami:"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/view10"
@@ -60,12 +60,25 @@
         android:layout_marginTop="16sp"
         android:layout_marginEnd="16sp"
         android:fontFamily="@font/avenir_bold"
-        android:text="0812 3456 7890"
+        android:text="Nomor Hp: 0812 3456 7890"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/justifiedTextView"
         app:layout_constraintStart_toStartOf="@+id/justifiedTextView"
         app:layout_constraintTop_toBottomOf="@+id/justifiedTextView" />
+
+
+    <com.codesgood.views.JustifiedTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16sp"
+        android:fontFamily="@font/avenir_bold"
+        android:text="Atas nama: Aufabillah Aldiono"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/justifiedTextView"
+        app:layout_constraintStart_toStartOf="@+id/justifiedTextView"
+        app:layout_constraintTop_toBottomOf="@+id/justifiedTextView2" />
 
 
 

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.instansi_pendidikan_di_hadhramaut.RibathAlFathWalImdadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ribat Al-fath Wal Imdad"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/ribath_al_fath_wal_imdad"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:contentDescription="@string/image"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Sejarah berdiri Ribat Alfath Wal Imdad merupakan salah satu dari pusat keilmuan, adab dan da’wah yang berada di Hadhramaut, tepatnya di Hauthoh Imam Ahmad bin Zain Al-Habsyi." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Pendiri Al-Habib Muhammad bin Idrus Al-Habsyi, yang wafat di Surabaya memiliki perhatian yang sangat besar dalam pendirian halaqoh ta’lim di Hauthoh. Pun demikian, kakeknya yang bernama al-habib Ahmad bin Zain al-Habsyi juga memiliki peran dan kepedulian yang tinggi atas penyebarluasan kegiatan keilmuan islami. Maka dengan berkat niat baik ini, Al-Habib Abdul Qodir bin Salim bin Toha al-Habsyi dengan mendirikan ribath ini bertujuan untuk mengumpulkan halaqoh-halaqoh ilmu. Dan pada akhirnya, al-Habib al-Fadil Abdurrahman Toha bin Abdul Qodir al-Habsyi ikut berperan dalam penyebarluasannya." />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tujuan Pendirian"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Ribat ini tidaklah dibangun kecuali untuk mencetus generasi ulama yang memiliki kemantapan dalam ilmu, yang memiliki akhlaq nabi, dan mampu berdakwah ke jalan Allah dengan keilmuannya untuk menyelamatkannya dari kegelapan, dan kebodohon kepada cahaya keilmuan dan tetapnya iman serta mengikuti sunnah nabi kita Muhammad Saw." />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Ribat ini, telah mencetus banyak lulusan berkualitas. Dan masyarakat Hauthoh banyak mengambil manfaat dari ribath ini dan belajar di dalamnya sebab merupakan ribat pertama yang dibangun di Hauthoh" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peraturan Ribat"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Adapun sistem pembelajaran di Ribat Al-fath Wal Imdad dari sejak berdirinya hingga sekarang menggunakan sistem halaqoh dengan pengawasan dan bimbingan dari para guru dan masyaikh. Dan pembagian halaqoh ini berdasarkan kemampuan masing-masing thullab. Yang dimulai dari pagi sampai malam, dengan pelajaran agama." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Dasar-dasar yang diterapkan oleh ribat, diantaranya : " />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="1. Memahami ilmu agama dengan pemahaman yang benar" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="2. Membenahi diri dan akhlaq" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="3. Melangsungkan dakwah di jalan Allah.  " />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="4. Masa pembelajaran tidak kurang dari 4 tahun." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metode Pengajaran"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Metode pembelajaran yang sudah ditetapkan ribath Pertama kali bagi pelajar yang belum mampu berbahasa Arab baik itu secara aktif maupun pasif, diberikan pembelajaran bahasa Arab maksimal satu tahun dengan mempelajari kitab nahwu, shorof dan bahasa Arab. Setelah lulus, santri dapat mempelajari kitab fiqih dan kitab lainnya." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fasilitas"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold"
+                android:layout_marginTop="16sp"
+                android:textSize="18sp"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Adapun bangunan ribat sekarang ini memiliki fasilitas sebagai berikut : 2 ruang kantor, 2 mushola, Perpustakaan, Asrama pelajar yang terdiri dari 14 kamar, Ruang tamu, Ruang untuk penjaga, Ruang kantor, Ruang belajar dan makan, Ruang komputer dan fotocopy ,Warte,l Peralatan listrik, Dapur,  3 gudang ,Toko, dan  16 kamar mandi." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:text="Infromasi selengkapnya untuk pendaftaran Ribath Fath wal Imdad Hauthoh bisa menghubungi contact person di bawah ini:" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PUSAT INDONESIA\nUstadz Abdurrohman (+6285280012026)\nUstadz Amin (+6287888826205)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PUSAT THAILAND\nUstadz Jihad bin Selamat (+66623273576)\nUstadz Harun Ismail (+967772624946)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PUSAT MALAYSIA\nUstadz Bagir Al Qhodri (+601111880513)\nUstadz Amar Zainal Yusuf (+967735611654)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PUSAT YAMAN HAUTHOH\nSaid Seggaf (+967736412935)\nRudho Al Aydrus (+967770451620)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Akun Resmi Pelajar Indonesia di Ribath Fath wal Imdad,Hauthoh: @isihauthoh.ribath"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

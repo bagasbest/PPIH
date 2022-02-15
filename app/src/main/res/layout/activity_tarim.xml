@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.biografi_ulama_hadhramaut.TarimActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/avenir_bold"
+            android:text="TARIM"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical"
+            android:padding="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.    Faqih Muqaddam"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/faqih_muqaddam"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="a.    Nama\nMuhammad bin Ali bin Muhammad Sahib Mirbat bin Ali Khali' Qasam"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Lahir"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau dilahirkan pada tahun 574 Hijriah dan tumbuh besar di Tarim. Hafal Al-Quran dan belajar kepada beberapa ulama, di antranya kepada ayah dan pamannya, sampai dapat mengungguli teman-temannya karena mujahadah yang luar biasa. Beliau bagaikan Al-Quran dan sunah yang berjalan. Beliaulah orang pertama kali yang membawa bendera tasawuf di Hadramaut. Beliau pun memliki banyak karamah, salah satunya yaitu pernah berjumpa Nabi Hud dalam keadaan terjaga. Beliau orang yang gemar bersedekah. Melahirkan para ulama seperti syekh Abdullah bin Muhammad Baabad."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau memiliki lima anak yaitu: Abdullah, Alwi, Ali (ketiganya di makamkan di pemakaman Zanbal) Abdurrahman (di makamkan di daerah antara Makkah dan Madinah), Ahmad (di makamkan di Qasam)."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Wafat"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat pada malam Ahad, akhir Zulhijah tahun 653 H. di pemakaman Zanbal, Tarim. Dan sejak dahulu, makam beliau adalah yang paling pertama dituju saat ziarah ke Zanbal. Para ulama salaf mengatakan bahwa makam beliau adalah salah satu tempat berdoa yang mustajab."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.    Alwi Al-Ghayur"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/alwi_al_ghayur"
+                android:rotation="-90"
+                android:layout_marginTop="30dp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="a.    Nama\nAlwi bin Faqih Muqaddam Muhammad bin Ali bin Muhammad bin Ali Khali' Qasam "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Lahir"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau lahir dan tumbuh besar di Tarim dan mendapatkan pendidikan langsung dari ayahnya. Ayahnya sampai memujinya bahwa beliau akan mendapatkan derajat kewalian yang tinggi, dan lahir pula dari beliau ulama-ulama terkemuka seperti saudara kandungnya sendiri Abdurrahman, Ahmad, Ali, dan Abdullah. Salah satu keistimewaan beliau adalah dapat mendengar suara tasbih dari benda-benda mati. Beliau memiliki beberapa anak, diantaranya Ali Sahib Ad-Dark, Abdullah Ba Alawi."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Wafat"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat pada hari Jumat, bulan Zulkaidah tahun 669 H, dan di makamkan di pemakaman Zanbal, dekat dengan makam ayahnya. Makam beliau pun termasuk salah satu tempat diijabahnya doa."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.    Amul Faqih ( Paman Faqih Muqaddam)"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="a.    Nama\nAlwi bin Muhammad Sahih Mirbat bin Ali Khali' Qasam "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Lahir"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau lahir dan tumbuh besar di Tarim, dan mendapatkan pendidikan sejak kecil dari ayahnya. Beliau berguru kepada Syekh Salim Bafadal, Sayyid Salim bin Basri. Banyak pula orang yang berguru kepada beliau dan menjadi ulama besar, salah satunya adalah Faqih Muqaddam."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau memiliki sifat pemurah dan akhlak yang baik, hingga mendapat banyak pujian dari ulama. Memiliki banyak karamah, salah satunya yaitu saat beliau pernah di beri racun, tetapi racun tersebut tidak memberi efek sama sekali. Beliau memiliki beberapa anak, diantaranya Abdurrahman dan Abdul Malik."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Wafat"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat pada hari Senin, bulan Zulkaidah 613 H dan dimakamkan di Zanbal."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.    Ali Abul Faqih (ayah Faqih Muqaddam)"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="a.    Nama\nAli bin Muhammad bin Ali Khali' Qasam"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Lahir"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau lahir dan besar di Tarim; Belajar langsung dari ayahnya. Beliau adalah orang yang baik akhlaknya, dermawan, dan memiliki sifat rendah hati. Salah satu keistimewaan beliau adalah keberhasilannya dalam mendidik anak semata wayangnya, yaitu Faqih Muqaddam Muhammad bin Ali."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Wafat"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat pada tahun 590 H. dan dimakamkan di Zanbal, Tarim."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.    Abdullah Ba Alawi"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/abdullah_ba_alawi"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="a.    Nama\nAbdullah bin Alwi bin Faqih Muqaddam Muhammad bin ali bin Muhammad sohib mirbat bin ali kholi'qosam "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Lahir"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau dilahirkan pada tahun 638 H., dalam riwayat lain pada tahun 640 H. dan tumbuh besar di Tarim. Beliau memiliki semangat yang tinggi, dan melanjutkan belajarnya di Makkah selama 8 tahun. Dan bertemu dengan para ulama serta orang-orang salih di waktu itu. Diriwayatkan bahwa ketika Makkah dilanda paceklik, berkat beliau Allah menurunkan hujan dan itu terulang sampai dua kali. Beliau orang yang gemar bersedekah, hingga pernah beliau menyedekahkan uang sebanyak 90,000 dinar untuk Masjid Ba Alawi. Beliau memliki tiga anak yaitu: Muhammad, Ali, dan Ahmad."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Wafat"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau wafat pada hari Rabu, pertengahan bulan Jumadilawal tahun 731 H."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.    Imam Abdurrahman As-Seggaf"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/imam_abdurrahman_as_seggaf"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="a.    Nama\nAbdurrahman bin Muhammad Maula Dawilaih bin Ali bin Alawi bin Muhammad Faqih Muqaddam. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Lahir"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau dilahirkan pada tahun 739 H. di Tarim; Beliau hafal Al-Qur'an; Salah satu ulama di zamannya, dan beliau membaca kitab Tanbih, Muhadzab, Basit, dan sebagainya, seperti kitab tasawuf, hingga beliau dapat melampaui temannya dalam bidang keilmuan. Beliau memiliki semangat dan kegigihan besar. Diceritakan bahwa beliau tidak tidur selama 33 tahun. Beliau juga mengkhatamkan Al-Qur'an empat kali di siang dan empat kali di malam hari. dan Beliau diberi gelar Faqih Muqaddam Tsani."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Wafat"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau meninggal pada hari Kamis, 3 Syakban 819 H. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.    Syekh Ali Khali' Qasam"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/syekh_ali_khali_qasam"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="a.    Nama\nAli bin Alawi bin Muhammad bin Alawi bin Ubaidillah bin Ahmad Muhajir"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Lahir"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="beliau dilahirkan di distrik Bait Juber dan tumbuh besar di sana. Kemudian pindah ke Tarim pada tahun 521 H. Salah satu riwayat tentangnya adalah setiap kali mengucapkan ''Assalamualaika ayyuhan Nabi warahmatullahi wabarakatuh'' baik di dalam salat atau tidak beliau mengulangi bacaan tersebut sampai mendengar jawaban dari Rasulullah saw. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Wafat"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau meninggal pada tahun 522 H. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.    Al-Habib Muhammad Jamalullail"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/al_habib_muhammad_jamalullail"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="a.    Nama\nMuhammad bin Hasan bin Muhammad bin Hasan bin Ali bin Muhammad Faqih Muqaddam."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Lahir"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Lahir pada tahun 750 H. Beliau belajar ilmu fikih kepada Habib Muhammad bin Ali bin Muhammad Faqih Muqaddam dan Muhammad Baabad dan lainnya. Beliau memiliki semangat tinggi sampai dapat mengumpulkan antara ilmu syariah dan hakikat, dan merupakan orang yang sangat menikmati dalam membaca Al-Qur’an."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Wafat"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau meninggal pada malam Senin, tahun 845 H."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9.    Al-Habib Umar Al-Muhdar"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/al_habib_umar_al_muhdar"
+                android:rotation="-90"
+                android:layout_marginTop="30dp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="a.    Nama\nUmar bin Abdurrahman As-Seggaf bin Muhammad bin Ali bin Alawi bin Muhammad Faqih Muqaddam. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Lahir"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Lahir di Tarim dan menghafal Al-Qur’an sejak kecil. Beliau tumbuh dalam lingkungan ilmu, sampai beliau dapat menghafal kitab Minhaj karya imam Nawawi dan kitab-kitab lainnya. Beliau selama 30 tahun tidak memakan kurma karena untuk melawan hawa nafsunya, yang mana diceritakan bahwa beliau sangat senang dengan kurma, dan untuk memberikan pelajaran kepada dirinya selama 30 tahun. Beliau memiliki sifat takut (kepada Allah) yang besar sampai beliau berkata, ''Andaikan saya dijadikan hewan yang disembelih dan dimakan sampai akhirnya menjadi debu''. Beliau juga membaca (wirid) kalimat ''Allatif'' seribu kali dalam sehari."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Wafat"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau meninggal pada hari Senin, 2 Zulkaidah tahun 833 H. dalam keadaan sujud waktu melaksanakan salat Zuhur. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.    Imam Aydrus"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/imam_aydrus"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="a.    Nama\nAbdullah bin Abu Bakar As-Sakran bin Abdurrahman As-Seggaf. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Lahir"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Lahir pada awal bulan Zulhijah tahun 811 H. Beliau memulai semangat dalam belajar ilmu sejak umur enam tahun, beliau membaca kitab Tanbih, Minhaj, Khulasah, dan Ihya sampai-sampai hampir beliau hafal isi kitab tersebut karena sering membacanya. Beliau memiliki sifat rendah hati yang tinggi, hingga beliau (pernah) duduk di tempat sampah untuk merendahkan dirinya dihadapan Allah dan tak melihat sama sekali bahwa dirinya lebih baik dari ciptaan Allah lainnya."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Wafat"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau meninggal pada hari Ahad, 12 Ramadan 865 H."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11.    Imam Abdullah Al-Haddad"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/imam_abdullah_al_haddad"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="a.    Nama\nAbdullah bin Alwi bin Muhammad bin Ahmad bin Abdullah bin Muhammad Al-Haddad. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Lahir"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Lahir pada tanggal 5 Safar 1044 H. Beliau tumbuh besar di Tarim, sejak kecil Allah ambil penglihatannya dan menggantinya dengan penglihatan hati (mata batin); Beliau tumbuh dalam ketaatan, sampai dikisahkan bahwa setiap kali beliau pulang dari sekolah dasar beliau salat 200 rakaat di Masjid Baalawi dan masjid-masjid lainnya. memiliki puluhan karangan kitab dan diwan yang tersebar di berbagai negara."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Wafat"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau meninggal pada tahun 1132 H."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.    Habib Abdullah bin Syekh Awsat"
+                android:textSize="18sp"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/habib_abdullah_bin_syekh_awsat"
+                android:layout_marginTop="16sp"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="a.    Nama\nAbdullah bin Syekh bin Abdullah bin Syekh bin Abdullah Alaydrus"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b.    Lahir"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Lahir di Tarim pada tahun 945 H. dan tumbuh besar di sana. Beliau menghafal Al-Qur’an dan selalu menyertai ayahnya dan Syekh Abu Bakar bin Salim. Beliau juga belajar ilmu fikih kepada Syekh Husein Balhaj Bafadhal. Beliau memiliki sifat dermawan dan sifat-sifat yang baik lainnya. Tujuan utama beliau adalah tiga hal, yaitu ilmu yang bermanfaat, derajat yang masyhur dan kedermawanan yang besar. "
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c.    Wafat"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Beliau meninggal pada hari Kamis, 15 Zulkaidah tahun 1019 H."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

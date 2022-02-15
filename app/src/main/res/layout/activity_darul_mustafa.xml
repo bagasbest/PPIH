@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.instansi_pendidikan_di_hadhramaut.DarulMustafaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Darul Mustofa"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Darul Mustofa terletak di kota Tarim, Hadramaut, Yaman yang berjarak 30 Km sebelah Timur laut Kota Seiwun, didirikan oleh Habib Umar bin Hafidz. Pembangunan Darul Musthafa pada bulan Syawal tahun 1410 H, dan peresmian pertama pada hari Selasa Tanggal 29 Dzulhijjah 1411 H, bertepatan dengan hari wafat Al-Habib Muhammad bin Salim bin Hafidz ibn Abu Bakar bin Salim, dan peresmian kedua pada bulan Muharram 1417 H. Makhad ini merupakan sebuah bukti benteng Islam Ahlussunnah Wal Jamaah dengan Mazhab Syafi'i di Negeri Yaman Darul Musthafa adalah tempat multikultural yang penuh dengan pelajar dari Indonesia dan berbagai negara lainnya  hingga California." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Darul Musthofa adalah Mahad yang perpondasikan Tsalatsatul Maqasid (tiga maksud) yaitu:" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="1."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ilmu, Penguasaan ilmu-ilmu syariat"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="2."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tazkiyatunnafsi, Pembersihan jiwa dan berahlak mulia"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="3."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dakwah, di jalan Allah menyebarluaskan agama Islam dengan bermanhajkan Ahlusunnah Wal Jama'ah."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Tujuan utama lembaga ini adalah membentuk pribadi yang tertanam di dalamnya Irtsunnabawai (warisan nabawi) berupa ilmu, kesucian jiwa, dan semangat dalam mengajak kepada amar makruf nahi munkar di seluruh penjuru dunia." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Sistem pembelajaran yang digunakan adalah sistem talaqqi (duduk bersila) di hadapan para guru untuk mendengarkan ilmu-ilmu yang disampaikan. Selain itu, di lembaga ini juga diajarkan untuk senantiasa memperaktikkan berbagai macam kegiatan yang dilakukan oleh salafunassahlih. Mulai dari salat berjemaah, membaca ratib dan berbagai wirid, salat malam, senantiasa berlahlak yang baik, dst. Bahkan ketika liburan para santri juga diminta untuk meluangkan waktu untuk berdakwah, terjun langsung ke masyarakat sekitar. Sungguh di sini mereka bagaikan tinggal di syurganya para penuntut ilmu syariat." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Adapun program-program untuk mencapai sasaran dan menghasilkan hasil yang memuaskan, Darul Musthofa membuat program program pada tiap-tiap tujuan;" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.    Ilmu"
+                android:layout_marginTop="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pelajar diberi 2 pilihan"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="a."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Belajar kitab-kitab yang sudah ditetapkan di Darul Musthofa."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="b."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Menghafal Al-Qur'an disertai dengan belajar fikih dan nahwu."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.    Suluk"
+                android:layout_marginTop="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dianjurkan bagi tiap pelajar meresapi dan mengamalkan dasar-dasar suluk yaitu;"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="16sp"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="a."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pembersihan diri dari sifat-sifat tercela."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="b."
+                    android:textColor="@color/black" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mempunyai perhatian dengan sunnah-sunnah dan adab Nabi saw."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="c."
+                    android:textColor="@color/black" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Beradab dengan pergaulan sesama makhluk."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="d."
+                    android:textColor="@color/black" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selalu mentaati petunjuk dan nasihat-nasihat. Dalam hal ini Al-Habib Umar bin Hafidz mengumpulkan untuk santri-santrinya adzkar (dzikir) dan aurad (wirid) dalam satu kitab yang diberi nama “Khulasah Al-Madad An-Nabawi”, yang mana dianjurkan kepada para santri-santrinya untuk membacanya pada waktu yang sudah ditentukan."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.    Dakwah"
+                android:layout_marginTop="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Pihak pengurus membuat satu jadwal bagi para santri yang punya kemauan dalam dakwah, seperti khuruj da’wah (keluar dakwah) mingguan setiap hari Kamis sampai hari Jumat. Keluar dakwah tahunan selama 40 hari, ini bagi para santri yang sudah membaca kitab ‘Umdatus Salik dan menziarahi para ulama, tempat-tempat bersejarah, masjid-masjid dan maqam-maqam para aulia yang ada di Hadhramaut. Dan ada juga dakwah dilingkungan Darul Musthofa seperti pertemuan santri-santri yang berasal dari satu daerah." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.    Waktu Belajar"
+                android:layout_marginTop="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Pelajaran dimulai setelah salat Subuh, diajarkan tiga mata pelajaran, setiap satu mata pelajaran memakan waktu 45 menit sampai jam 08.30 pagi, kemudian pelajaran diteruskan setelah salat Dzuhur, (satu mata pelajaran), selanjutnya pelajaran diteruskan kembali setelah salat Maghrib satu mata pelajaran dan setelah salat Isya setoran hafalan." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Lama belajar setiap murid rata-rata selama empat tahun, tanpa menganut sistem kenaikan kelas, yang mana para murid belajar secara berjenjang memahami beberapa kitab di bawah bimbingan para guru pengajar yang ahli dan memiliki sanad keilmuan yang dapat dipertanggungjawabkan. Setelah diuji dan lulus, mereka baru bisa melanjutkan belajar ke kitab yang lebih sulit, jika tidak lulus, maka harus mengulanginya lagi." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.    Kitab - Kitab yang Dipelajari"
+                android:layout_marginTop="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Risalatul jami’ah, Safinatun naja',  Muqaddimatul hadhramiyah, Matan Abi Syuja’, Yakut An Nafis, Umdatus Salikin, Minhaj ath-Thalibin, Aqidah, Aqidatul Awam, Al-Aqidah (karangan Imam Haddad), Durus tauhid, Jauhar tauhid, Risalah Qudus, Wajhutadaruj dari kitab Ihya, Nahwu, Matan asas, Al-jurumiyah, Mutammimah Al-Jurumiyah, Qatrun nada, Alfiyah Ibn Malik, Hadits, Mukhtar Alhadits, Arba’in Nawawiyah, Nurul iman, Mukhtar Riyadushhalihin, Qawaid Asasiah, Riyadhussalihin, Tasawuf, Bidayatul Hidayah, Ihya Ulumuddin, ar- Risalatul Mu'awwanah" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Setelah pelajar meyelesaikan kitab-kitab di atas, pelajar diberi pilihan untuk masuk jurusan (takhasus), penjurusannya sebagai berikut:." />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="1."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Al-Quran wa Ulumih"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="2."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Al-Hadits wa Ulumih"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="3."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sirah"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="4."
+                    android:textColor="@color/black"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lughah Arabiyah"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="5."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fikh wa Ushulih"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Dan juga Darul Musthofa mengadakan pesantren kilat pada masa liburan musim panas untuk para mahasiswa-mahasiswa, pegawai dan guru-guru selama 40 hari, dan juga mengadakan pesantren kilat untuk para kiai selama tiga bulan." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Para murid yang belajar di Darul Musthofa, selain belajar ilmu dzahir, Al-Habib Umar juga memberikan amanat untuk memperhatikan keilmuan batiniah, di antaranya meneladani akhlaq Nabi Muhammad saw, Ahlul Bait, dan para sahabat beserta salafunassalih." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Al-Habib Umar juga menekankan kepada para murid agar selalu mebersihkan hati dan jiwa serta sifat-sifat tercela seperti sombong, iri, dengki, hasut, riya', dan juga penyakit-penyakit hati lainnya. Dan para murid juga dituntut untuk saling menghormati dan menghargai antar sesama saudara muslim, terutama kepada yang lebih tua." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Untuk Pendaftaran silahkan lihat informasi selebihnya di akun resmi Ma’han Al-Aydrus" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Persyaratan Umum:" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Laki-laki beragama islam"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mengisi formulir pendaftaran secara online melalui link yang telah disediakan."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sehat jasmani dan rohani (Menunjukkan surat keterangan bebas HIV,Narkoba,Hepatitis A,B dan C ketika sampai di lokasi dauroh."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wajib menunjukkan hasil negative antigen/ginos 2 kali 24 jam setibanya di lokasi dauroh."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mampu berbahasa aktif,baik tulisan dan lisan."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bersedia mengikuti tata tertib selama dauroh berlangsung."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mendapat izin orang tua/wali."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berakhlak karimah dan memiliki semangat dan tekat yang kuat untuk mempelajari ilmu syariat."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Membawa pasport asli yang berlaku minimal 8 bulan."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="\u2022"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Membayar biaya pelaksanaan program dauroh."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="Telp./WA:\n+62-821-3209-7717 / +62-818-0900-0667 /+62-812-5737-8175"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -12,6 +12,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PPIH">
         <activity
+            android:name=".feature.dzikir_dan_maulid.PDFActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.biografi_ulama_hadhramaut.InatQasamHudActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.biografi_ulama_hadhramaut.MashadDauanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.biografi_ulama_hadhramaut.SeiyunHuraidahAmedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.biografi_ulama_hadhramaut.TarimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.instansi_pendidikan_di_hadhramaut.DarulMustafaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.instansi_pendidikan_di_hadhramaut.DaruzZahraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.instansi_pendidikan_di_hadhramaut.RibathAlFathWalImdadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.instansi_pendidikan_di_hadhramaut.RibathIlmiSyarifSeiyunActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.instansi_pendidikan_di_hadhramaut.UniversitasAlAhgaffActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.instansi_pendidikan_di_hadhramaut.UniversitasWasathiyahActivity"
+            android:exported="false" />
+        <activity
             android:name=".feature.sejarah_masjid_tarim.MasjidAlMuhdhorActivity"
             android:exported="false" />
         <activity

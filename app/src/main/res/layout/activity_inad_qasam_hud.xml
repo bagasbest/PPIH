@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.biografi_ulama_hadhramaut.SeiyunHuraidahAmedActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/avenir_bold"
+            android:text="INAT, QASAM, HUD"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical"
+            android:padding="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INAT:"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Syekh Abu Bakar bin Salim"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="A."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama: Al-Habib Syekh Abu Bakar bin Salim bin Abdullah bin Abdurrahman bin Abdullah bin Abdurrahman As-Seggaf."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="B."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tempat Tanggal Lahir: Tarim, sabtu, 13 Jumadilakhir 919 H."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="C."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wafat: Inat, malam Ahad, 3 Zulhijah 992 H."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="D."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Putra-Putri: Syekh Abu Bakar bin Salim mempunyai 13 putra dan 4 putri yaitu:\n\n1. Ahmad\n2. Al-Hamid\n3. Umar Al-Muhdhar\n4. Al-Husain\n5. Ali Al-Muqaddam\n6. Abdurrahman, yang diberi gelar As-Seggaf\n7. Salim (wafat ketika ayahnya masih hidup)\n8. Abdullah Al-Akbar (wafat sebelum ayahnya)\n9. Jakfar (wafat setelah ayahnya dan tidak punya keturunan)\n10. Shaleh (wafat setelah ayahnya)\n11. Syekh (wafat setelah ayahnya)\n12. Al-Hasan\n13. Abdullah Al-Asghar"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="E."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karamah Syekh Abu Bakar bin Salim"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:layout_marginStart="30dp"
+                android:text="Diceritakan oleh Habib Al-Husain bin Syekh Abu Bakar, Putra dari Syekh Abu Bakar bin Salim, bahwa ketika beliau hendak membangun masjid, beliau bermusyawarah dengan ayahnya mengenai dimanakah tempat yang cocok untuk pembangunan masjid, kemudian Syekh Abu Bakar bin Salim berkata, “Keluarlah kamu, ketika kamu melihat tempat yang di situ terdapat cahaya yang bersinar menembus langit, maka bangunlah masjid di sana."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:layout_marginStart="30dp"
+                android:text="Akhirnya Habib Al-Husain pun keluar mencari tempat tersebut dan akhirnya menemukan tanah yang memancarkan cahaya yang bersinar ke langit, kemudian dibangunlah masjid di situ, yang terkenal dengan sebutan masjid An-Nur."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="2.    Al-Habib Aqil bin Salim."
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="A."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama: Beliau adalah Al-Habib Aqil bin Salim bin Abdullah bin Abdurrahman bin Abdullah bin Abdurrahman As-seggaf, beliau merupakan kakek dari marga Al-Attas dan marga Baa Aqil."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="B."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wafat: Inat, pada tahun 1000 H"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="C."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Putra-Putri: Al-Habib Aqil bin Salim mempunyai 5 orang putra, yaitu:\n\n1. Salim\n2. Syaikhan\n3. Muhammad\n4. Zain\n5. Abdurrahman Al-Attas"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="D."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karamah"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:layout_marginStart="30dp"
+                android:text="Al-Habib Aqil bin Salim merupakan kakek dari keturunan marga Baa Aqil dan Al-Attas. Dalam salah satu riwayat dijelaskan bahwa Al-Habib Aqil ketika dalam kandungan pernah bersin, sebab itu dikatakan bahwa orang yang pertama bersin dalam kandungan adalah Al-Habib Aqil, bukan Al-Habib Abdurrahman."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="3.    Putra-Putra Syekh Abu Bakar bin Salim"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="I.    Al-Habib Ahmad bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="A."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lahir dan Wafat: Beliau dilahirkan di Inat, dan wafat di Syihir pada hari Jumat, 18 Syawal 1020 H."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="B."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karamah: Diriwayatkan bahwa Al-Habib Ahmad bin Syekh Abu Bakar ketika masuk ke Makkah Al-Mukarramah beliau berziarah kepada kepada As-Syarif Idris bin Hasan, kemudian Al-Habib Ahmad berkata kepada Syarif Idris, “Kamu akan menguasai tanah Hijaz seperti halnya saudaramu Abu Thalib.” Tidak selang beberapa lama kemudian, akhirnya apa yang dikatakan Al-Habib Ahmad pun terjadi."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="II.    Al-Habib Al-Hamid bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="A."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lahir dan Wafat: Al-Habib Al-Hamid lahir di Inat, dan wafat di Inat pula, tepatnya pada tahun 1030 H.  dan dimakamkan di dalam kubah ayahnya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="B."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karamah: Diceritakan bahwa Al-Habib Al-Hamid banyak mengambil ilmu dari ulama besar di zamannya, diantaranya adalah ayah beliau sendiri, yaitu Al-Habib Abu Bakar bin Salim dan juga guru ayahnya Al-Imam Ahmad bin Alwi Ba Juhdub. Beliau belajar dari mereka bukan hanya dalam keadaan terjaga, melainkan ketika beliau dalam keadaan tidur pun beliau belajar dengan mereka."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="III.    Al-Habib Al-Hamid bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="A."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wafat: Beliau wafat pada waktu isyraq hari Ahad, 21 Jumadilakhir 997 H. Dan dimakamkan di kubah ayahnya."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="B."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Riwayat: Al-Habib Umar Al-Muhdhar bin Abu Bakar bin Salim, nama Al-Muhdhar diambil dari gelar Al-Habib Umar Al-Muhdhar bin Abdurrahman As-Seggaf. Beliau merupakan kakek dari marga Al-Muhdhar yang sekarang banyak tersebar baik di Indonesia maupun di Hadramaut."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="IV.    Al-Habib Al-Husain bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="A."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lahir dan Wafat: Beliau dilahirkan di Inat, dan wafat di sana pada malam senin, 25 Rabiulakhir 1044 H."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="B."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karamah: Al-Habib Al-Husain bin Abu Bakar adalah seorang yang sangat kaya raya. Diceritakan bahwa ketika beliau berada dalam suatu majelis, ada salah seorang jamaah yang menjanggalkan derajat (tinggi) dari Al-Habib Husain, bahkan terbesit di dalam hatinya, “ Bagaimana seorang yang punya derajat tinggi di dunia dan sangat kaya raya bisa memiliki derajat tinggi di sisi Allah dan bisa selalu ingat kepada Allah?” dan sebelum seseorang tadi selesai dari unek-unek hatinya, Al-Habib Husain langsung menoleh ke arah orang tersebut seraya berkata, “Andaikata semua yang saya miliki sekarang ini hilang maka sedikitpun saya tidak merasa susah.”"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="V.   Al-Habib Ali bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="A."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lahir dan Wafat: Lahir dan Wafat Beliau lahir di Inat, dan wafat di sana pada tahun 982 H. sepuluh tahun sebelum ayahnya wafat, dan beliau adalah orang pertama yang dikebumikan di pemakan Inat."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="B."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karamah: Diceritakan oleh Al-Habib Ahmad bin Muhsin Al-Haddar bahwa Al-Habib Ali bin Syekh Abu Bakar, ketika beliau meninggal dan pada saat diletakkan di liang lahat tiba-tiba beliau duduk, kemudian saat ditidurkan kembali ke liang lahat  menghadap kiblat beliau lalu kembali duduk, hal itu terjadi berulang kali hingga kabar itu sampai kepada  Syekh Abu Bakar bin Salim, kemudian beliau mendatangi tempat dimakamkannya Al-Habib Ali dan berkata, “Jika kamu masih ingin hidup kembali, keluarlah dari kuburan itu dan saya yang akan menggantikan kamu.” Setelah Syekh Abu Bakar bin Salim selesai berbicara, tiba-tiba Al-Habib Ali kembali tidur menghadap kiblat dan tidak duduk lagi."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="VI.   Al-Habib Al-Hasan bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beliau dilahirkan di Inat, 3 Syawal 968 H. dan wafat di sana pada waktu dhuha hari ahad, 19 Rabiulawal 1058 H. dan dimakamkan di kubah milik ayahnya."
+                android:textColor="@android:color/black"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diceritakan bahwa beliau sangat dermawan, bahkan semua hartanya disedekahkan untuk semua orang, beliau adalah orang yang diterima di semua kalangan, baik orang awam maupun kalangan khas dan memiliki karamah yang sangat banyak."
+                android:textColor="@android:color/black"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="VII.   Al-Habib Shaleh bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beliau dilahirkan di Inat, dan wafat di sana pada tahun 1000 H."
+                android:textColor="@android:color/black"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="VIII.   Al-Habib Abdullah Al-Akbar bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beliau dilahirkan di Inat, dan wafat di sana pada tanggal 11 Ramadan 988 H. "
+                android:textColor="@android:color/black"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="IX.   Al-Habib Salim bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beliau dilahirkan di Inat, dan wafat di sana pada tanggal 10 Muharam 986 H."
+                android:textColor="@android:color/black"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="X.   Al-Habib Syaikhon bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beliau dilahirkan di Inat, dan wafat di sana pada tahun 1053 H."
+                android:textColor="@android:color/black"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="XI.   Al-Habib Abdurrahman bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beliau dilahirkan dan wafat di Inat, serta dikuburkan di dalam kubah ayahnya."
+                android:textColor="@android:color/black"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="XII.   Al-Habib Abdullah Al-Asghar bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beliau wafat di Inat, pada waktu maghrib, malam Rabu 11 Jumadilakir 1056 H."
+                android:textColor="@android:color/black"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:text="XIII.   Al-Habib Jakfar bin Syekh Abu Bakar"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QASAM:"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Turbah Masaf:"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Muhammad bin Ahmad Jamalullail"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="A."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama: Al-Habib Muhammad bin Ahmad bin Abdullah bin Alwi bin Al-Faqih Al-Muqaddam"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="B."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lahir dan Wafat: Beliau dilahirkan di Tarim, dan wafat di Qasam pada tahun 787 H. yang tepatnya di pemakaman shif."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="C."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Putra: Beliau mempunyai satu orang putra, yaitu Al-Habib Abdullah bin Muhammad bin Ahmad Jamalullail."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="D."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karamah: Diceritakan oleh Habib Ahmad bin Abdurrahman As-Seggaf, bahwa ketika ia bersama dengan Habib Muhammad Jamalulail dalam perjalanan pergi berziarah ke makam Nabi Hud as., ketika di pertengahan jalan turunlah hujan yang sangat deras, sedangkan Al-Habib Muhammad memiliki tubuh yang lemah dan kurus, ketika sampai di makam Nabi Hud as. beliau (tampa) tidak memliki tenaga yang tersisa. Para jemaah yang ikut pun sudah dalam keadan Lelah dan lapar. Mereka semua langsung tidur karena tidak sanggup melakukan apapun lagi. Namun, Habib Muhammad Jamalullail tetap melaksanakan salat seperti yang beliau lakukan setiap hari sampai waktu fajar, seakan-akan beliau tidak terpengaruh dengan lelahnya perjalanan."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Syarifah Aisyah binti Abu Bakar Al-Wara (Ibu Habib Abdurrahman As-Seggaf)"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Putra putri\nBeliau mempunyai 4 orang anak:\n 1. Al habib abdurrahman assegaf.\n2. Al habib ali\n3. Al habib abdullah.\n4. Hubabab alawiyah."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.  Syekh Baa Qusyair"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B.  Turbah Ijz"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Habib Ahmad bin Faqih Muqaddam As-Syahid"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Al-Habib Ahmad bin Al-Faqih Al-Muqaddam Al-Habib Muhammad bin Ali Baa Alawi."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="A."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lahir dan Wafat: Beliau dilahirkan di Tarim, pada tahun 610 H. dan wafat di Ijz sebagai orang yang syahid pada tahun 706 H. serta dimakamkan di dekat Masjid Syekh Abdullah bin Ibrahim Al-Qusyairi."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="B."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Keturunan Al-Habib Ahmad\nBeliau mempunyai 4 orang anak,  yaitu:\n1. Muhammad \n2. Umar\n3. Alwi\n4. Abu Bakar Al-Wara'"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="C."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karamah: Al-Habib Ahmad, beliau adalah perangai yang gemar beruzlah (menyendiri), lebih memilih khumul (tidak dikenali banyak orang), dan sangat jauh dari ketenaran, hingga sedikit orang yang mengambil ilmu dari beliau dan sedikit sekali yang begitu mengenali beliau. Diceritakan bahwa makam beliau yang semula sangat terkenal, lama-kelamaan banyak yang tidak mengetahui letak makam beliau. Kemudian pada saat Sayyid Fad’aq bin Muhammad melihat seorang yang ahli makrifat memberitahukan letak kuburan Al-Habib Ahmad berada, akhirnya dari situlah makam beliau kembali ramai dikunjungi."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Rumah Habib Ali Al-Habsy (tempat kelahirannya)"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Rumah Ali Khali Qasam"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hud"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nabi Hud"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
