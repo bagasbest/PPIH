@@ -39,7 +39,8 @@
             <com.makeramen.roundedimageview.RoundedImageView
                 android:id="@+id/masjid_baalawi"
                 android:layout_width="match_parent"
-                android:layout_height="260dp"
+                android:layout_height="350dp"
+                android:rotation="90"
                 android:contentDescription="@string/image"
                 app:riv_corner_radius="10dp" />
 

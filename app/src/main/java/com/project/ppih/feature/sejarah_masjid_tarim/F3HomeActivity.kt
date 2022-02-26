@@ -3,6 +3,8 @@ package com.project.ppih.feature.sejarah_masjid_tarim
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.bumptech.glide.Glide
+import com.project.ppih.R
 import com.project.ppih.databinding.ActivityF3HomeBinding
 
 class F3HomeActivity : AppCompatActivity() {
@@ -11,6 +13,34 @@ class F3HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityF3HomeBinding.inflate(layoutInflater)
         setContentView(binding?.root)
+
+        Glide.with(this)
+            .load(R.drawable.mosque_icon)
+            .into(binding!!.mosqueIcon)
+
+
+        Glide.with(this)
+            .load(R.drawable.mosque_icon)
+            .into(binding!!.mosqueIcon2)
+
+
+
+        Glide.with(this)
+            .load(R.drawable.mosque_icon)
+            .into(binding!!.mosqueIcon3)
+
+
+
+        Glide.with(this)
+            .load(R.drawable.mosque_icon)
+            .into(binding!!.mosqueIcon4)
+
+
+
+        Glide.with(this)
+            .load(R.drawable.mosque_icon)
+            .into(binding!!.mosqueIcon5)
+
 
         binding?.view2?.setOnClickListener {
             startActivity(Intent(this, MasjidJamiActivity::class.java))

@@ -127,6 +127,47 @@
         app:layout_constraintTop_toTopOf="@+id/view4" />
 
 
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:contentDescription="@string/image"
+        android:id="@+id/arabian_no_color_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:contentDescription="@string/image"
+        android:id="@+id/arabian_no_color_icon2"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:contentDescription="@string/image"
+        android:id="@+id/arabian_no_color_icon3"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:contentDescription="@string/image"
+        android:id="@+id/arabian_no_color_icon4"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

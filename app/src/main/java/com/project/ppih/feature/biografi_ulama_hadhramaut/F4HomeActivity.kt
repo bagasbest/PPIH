@@ -3,6 +3,8 @@ package com.project.ppih.feature.biografi_ulama_hadhramaut
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.bumptech.glide.Glide
+import com.project.ppih.R
 import com.project.ppih.databinding.ActivityF4HomeBinding
 
 class F4HomeActivity : AppCompatActivity() {
@@ -14,6 +16,23 @@ class F4HomeActivity : AppCompatActivity() {
         binding = ActivityF4HomeBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
+        Glide.with(this)
+            .load(R.drawable.arabian_no_color_icon)
+            .into(binding!!.arabianNoColorIcon)
+
+
+        Glide.with(this)
+            .load(R.drawable.arabian_no_color_icon)
+            .into(binding!!.arabianNoColorIcon2)
+
+        Glide.with(this)
+            .load(R.drawable.arabian_no_color_icon)
+            .into(binding!!.arabianNoColorIcon3)
+
+
+        Glide.with(this)
+            .load(R.drawable.arabian_no_color_icon)
+            .into(binding!!.arabianNoColorIcon4)
 
         binding?.view2?.setOnClickListener {
             startActivity(Intent(this, TarimActivity::class.java))

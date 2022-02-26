@@ -6,11 +6,19 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo_apk_new"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PPIH">
+        android:theme="@style/Theme.PPIH"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".feature.instansi_pendidikan_di_hadhramaut.MahadAlaydrusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.instansi_pendidikan_di_hadhramaut.RibathTarimActivity"
+            android:exported="false" />
         <activity
             android:name=".feature.dzikir_dan_maulid.PDFActivity"
             android:exported="false" />

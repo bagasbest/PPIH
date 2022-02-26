@@ -1,6 +1,5 @@
 package com.project.ppih
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
@@ -8,9 +7,9 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import com.bumptech.glide.Glide
+import com.project.ppih.databinding.ActivityMainBinding
 import com.project.ppih.feature.al_quran.F1HomeActivity
 import com.project.ppih.feature.biografi_ulama_hadhramaut.F4HomeActivity
-import com.project.ppih.databinding.ActivityMainBinding
 import com.project.ppih.feature.dzikir_dan_maulid.F2HomeActivity
 import com.project.ppih.feature.instansi_pendidikan_di_hadhramaut.F5HomeActivity
 import com.project.ppih.feature.sejarah_masjid_tarim.F3HomeActivity
@@ -43,6 +42,31 @@ class MainActivity : AppCompatActivity() {
         }
 
         populateDrawerItem()
+
+        Glide.with(this)
+            .load(R.drawable.al_quran_sample_icon)
+            .into(binding!!.alquranIcon)
+
+        Glide.with(this)
+            .load(R.drawable.tasbih_icon)
+            .into(binding!!.tasbihIcon)
+
+        Glide.with(this)
+            .load(R.drawable.mosque_icon)
+            .into(binding!!.mosqueIcon)
+
+        Glide.with(this)
+            .load(R.drawable.arabian_icon)
+            .into(binding!!.arabianIcon)
+
+        Glide.with(this)
+            .load(R.drawable.instansi_pendidikan)
+            .into(binding!!.instansiPendidikan)
+
+        Glide.with(this)
+            .load(R.drawable.logo_apk)
+            .into(binding!!.imageView2)
+
 
         /// Hint: F1, F2, ... F5, maksudnya adalah Fitur 1, Fitur 2 dst, sesuai dengan desain
         binding?.linearLayout?.setOnClickListener {
@@ -95,7 +119,7 @@ class MainActivity : AppCompatActivity() {
         val hView = binding!!.navView.getHeaderView(0)
         val logo = hView.findViewById<ImageView>(R.id.logo)
         Glide.with(this)
-            .load(R.drawable.logo)
+            .load(R.drawable.logo_apk)
             .into(logo)
     }
 

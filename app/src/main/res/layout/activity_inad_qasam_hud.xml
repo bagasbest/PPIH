@@ -1244,7 +1244,288 @@
 
 
 
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Nabi Hud berasal dari sebuah kabilah bernama 'Ad bin 'Aus bin Saam bin Nuh. Mereka merupakan bangsa Arab yang tinggal di Al-Ahqaff. Yaitu pegunungan pasir yang berada di Yaman, antara Oman dan Hadhramaut. Terletak di kawasan hamparan tanah yang mendekati lautan bernama Syihir. Lembah yang mereka tinggali disebut Mughits."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
 
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Nabi Hud As. diutus oleh Allah Swt kepada Kaum 'Ad. Mereka adalah orang yang pertama kali menyembah berhala setelah musibah air bah atau banjir bandang yang ditimpakan pada kaum Nabi Nuh As."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Berhala-berhala kaum ‘Ad terdiri dari tiga nama: Shodaa, Shomuda, dan Hira. Kaum Nabi Hud diberi kelebihan oleh Allah Swt berupa kekuatan dan keperkasaan jasmani dan watak yang keras. Namun karena sifat sombong dan keras kepala, Kaum 'Ad sampai membangkang ajakan Nabi Hud untuk menyembah Allah Swt. Menyembah berhala-berhala bagi mereka merupakan ajaran nenek moyang sebelumnya dan tidak boleh sampai ditinggalkan."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Dengan penuh kesabaran, Nabi Hud terus mendakwahi mereka. Namun tetap saja mereka bersi"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Dengan penuh kesabaran, Nabi Hud terus mendakwahi mereka. Namun tetap saja mereka bersikukuh pada keyakinan dan kepercayaannya dengan menyembah berhala. Akhirnya kaum 'Ad pun dibinasakan oleh Allah Swt."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Pertama-tama dengan awan mendung yang disangka mereka akan turun air hujan sehingga bisa diminum. Padahal itu adalah awal mula turunnya siksa bagi mereka. Kemudian, dari awan itu mulai bermunculan petir dan angin kencang secara terus-menerus sampai tujuh malam dan delapan hari hingga kaum 'Ad pun binasa."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Letak Makam Nabi Hud AS. "
+                android:layout_marginTop="16dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Lokasi makam Nabi Hud berada di daerah bernama Syi'ib Hud yang berjarak sekitar kurang lebih 80 km dari kota Tarim. Makam itu bisa ditempuh dengan kendaraan darat sekitar 3 jam. Letak keberadaan makam Nabi Hud As. di Hadhramaut ini dibenarkan dengan beberapa dalil, di antaranya: "
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="وَاذْكُرْ أَخَا عَادٍ إِذْ أَنذَرَ قَوْمَهُ بِالْأَحْقَافِ وَقَدْ خَلَتِ النُّذُرُ مِن بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهِ أَلَّا تَعْبُدُوا إِلَّا"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اللَّهَ إِنِّي أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍ"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="“(Dan ingatlah (Hud) saudara kaum 'Aad yaitu ketika dia memberi peringatan kepada kaumnya di Al Ahqaaf dan sesungguhnya telah terdahulu beberapa orang pemberi peringatan sebelumnya dan sesudahnya (dengan mengatakan): ''Janganlah kamu menyembah selain Allah, sesungguhnya aku khawatir kamu akan ditimpa azab hari yang besar.” (Al-Ahqaf: 21) "
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Allah mengutus Nabi Hud As. kepada kaumnya di Al-Ahqaff. Sebagaimana diketahui bahwa Al-Ahqaf ialah Hadhramaut, tempat tinggal kaum ‘Ad dahulu seperti yang dituturkan oleh mayoritas ulama tafsir dan pakar sejarah. "
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Imam Ibnu Jarir at-Thabari mengisahkan bahwa Sayyidina Ali bin Abi Tholib ra. berkata pada seseorang dari Hadhramaut, ''Apakah kamu melihat bukit pasir merah yang tercampuri tanah liat merah dan memiliki pohon arok dan pohon bidara yang banyak di daerah ini dan ini di Hadhramaut. Apakah kamu melihatnya?''"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Orang itu menjawab, ''Ya, wahai Amirul mukminin. Demi Allah sesungguhnya tuan benar-benar menggambarkannya seperti orang yang telah melihatnya.''"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Sayyidina Ali berkata, “Tidaklah demikian, akan tetapi aku pernah diceritakan tentangnya.''"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Kemudian orang Hadhramaut itu bertanya, “Lantas apa urusan tuan wahai Amirul mukminin?”"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Sayyidina Ali menjawab, ''Di sana terdapat kuburan Nabi Hud shalawatullah 'alaih.”"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Ibnu Hisyam Al-Himyari dalam kitab At Tijan fi Muluk Himyar menuliskan bahwa Nabi Hud As. dikubur di Al-Ahgaf. Tepatnya di suatu tempat bernama al-Hunaibiq di samping Al-Hafif. Sementara al-Hafif adalah nama sebuah sungai yang Allah keluarkan air penolong dan tumbuhkan buah-buahan semenjak Allah turunkan tanda-tanda kenabian Hud As. Tempat itu kini berada di dekat pemakaman Nabi Hud yang sampai sekarang masih mengalir."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Dalil-dalil tentang benarnya keberadaan makam Nabi Hud As. bisa dilihat secara lengkap dalam kitab Nailul Maqshud fi Masyru'iyyat Ziyarati Nabiyillah Hud As. karangan al-Habib Salim bin Abdillah bin Umar as-Syathiri, pengasuh Ribath Tarim-Hadhramaut."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tradisi Ziarah Masyarakat Hadhramaut"
+                android:layout_marginTop="16dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avenir_bold" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Dalam rangka mengenang jasa Nabi Hud As., masyarakat Hadhramaut melaksanakan tradisi ziarah akbar Nabi Hud As. Ziarah ini diselenggarakan setiap awal bulan Sya'ban, selama 3 hari sekitar tanggal 8-10 Sya'ban."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Musim ziarah biasanya dihadiri oleh ribuan peziarah yang tidak hanya datang dari daerah Hadhramaut saja. Tetapi juga para peziarah dari luar Hadhramaut bahkan dari luar negeri Yaman. "
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Ziarah Nabi Hud As. memiliki tata cara tersendiri yang diawali dengan ziarah ke Zanbal, dilanjutkan ke makam Syaikh Abu Bakar bin Salim. Kemudian menuju makam Nabi Hud As. di Syi'ib Hud."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Ziarah biasanya dilakukan oleh perorangan atau berjamaah dengan dipimpin oleh seorang yang dituakan dari keluarga tertentu yang disebut dengan istilah Munshib. Ziarah 'ammah atau bersama-sama ini dilakukan dengan tata cara sesuai tradisi yang sudah turun temurun diwarisi dari leluhur."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Pertama, peziarah berkumpul dahulu di sungai dekat lokasi makam, Sungai Al-Hafif. Sungai tersebut dikatakan dan diyakini oleh para penduduk setempat termasuk sungai surga."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Mereka mandi di sana atau hanya sekedar wudhu saja. Kemudian shalat Dhuha di Masjid Syaikh Umar al-Muhdhor yang lokasinya dekat sungai jika waktu ziarah di pagi hari, atau melakukan shalat fardhu berjamaah jika bertepatan dengan waktu shalat fardhu. "
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Kemudian mereka membaca surat Yasin. Setelah itu, rombongan bergerak dengan berjalan kaki sambil berdzikir ''Subhanallah wal hamdulillah wa laa ilaaha illallah Allahu akbar.” "
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Sebelum mencapai makam, rombongan akan berhenti di tempat yang berbentuk sumur yang disebut dengan Bi'rut taslim (sumur keselamatan). Di tempat ini, para peziarah membaca salam kepada Nabi Muhammad saw, Nabi Hud As., para malaikat dan para Nabi yang dipimpin oleh munshib."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Kemudian rombongan kembali berjalan menuju makam. Ketika sampai di makam, rombongan kembali membaca salam lalu membaca surat Yasin atau surat Hud dan ditutup doa yang dipimpin oleh munshib."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Setelah selesai berdoa, rombongan berpindah ke tempat di bawah batu besar. Tempat tersebut dinamakan Naqoh (batu besar). Di tempat ini, para peziarah akan membaca maulid Nabi, mendengarkan syair-syair yang berisi pujian pada Rasulullah saw atau petuah dan nasihat. Kemudian seorang atau dua orang ulama akan berceramah dan yang lain męndengarkan sampai acara ditutup dengan doa. "
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Demikian tradisi akbar ziarah kaum muslimin terutama masyarakat Hadhramaut Yaman ke makam Nabi Hud As."
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
 
         </LinearLayout>
 

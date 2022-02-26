@@ -46,6 +46,72 @@
                 android:contentDescription="@string/image"
                 app:riv_corner_radius="10dp" />
 
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Seorang ulama tidak mendirikan sebuah tempat atau bangunan, kecuali bangunan itu pasti akan ia gunakakan untuk mengajarkan ilmu-ilmu agama Islam dan kegiatan-kegiatan ibadah." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Al-Habib Ali Al-Habsyi (shohib Maulid Simtut Duror) berkata: Selama 30 tahun aku tinggal di bumi ini, di mesjid hambal. Siang dan malam mesjid hambal makmur dengan dzikir,tilawatul qur’an dan pengajian. Para tetangga mesjid ini banyak yang jadi pengusaha, namun mereka semua orang-orang yang gemar beribadah. Mereka melaksanakan berbagai kebajikan, membaca quran dan sholat di akhir malam Ketika aku mengajar di mesjid hambal, yang menghadiri majelisku sekitar 400 orang." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Waktu aku masih menjadi imam di mesjid hambal, mesjid itu penuh dengan kebajikan. Orang beribadah disitu, menuntut ilmu disitu, dan mendapatkan makanan lezat disitu. Setiap sholat tarawih, aku membaca 10 juz, setiap rakaat 8 muqra’. Sedangkan malam jum’at, dari sahur hingga fajar kugunakan untuk membaca dalail khoirot ketika Habib Ali berusia 37 tahun, ia membangun ribath ( pondok pesantren ) di seiwun. Aal-habib ali bin muhammad bin husein bin abdullah bin syeikh al-habsyi membangunan sebuah ribath di kota seiwun untuk para penuntut ilmu dari dalam dan luar kota. Ribath itu menyerupai sebuah mesjid dan terletak disebelah timur halaman mesjid abdul malik." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Ribath itu mempunyai kamar dilantai atas dan bawah. Tak jauh dari sumur yang digali syayidina ali terdapat kolam yang besar.biaya oarang-orang yang tinggal di ribath beliau tanggung sendiri.. Disamping itu ada beberapa wakaf untuk membiayai keperluan mereka." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Habib ali ra berkata : para penghuni ribath adalah orang-orang baik yang kebanyakan berasal dari luar kota. Siang dan malam mereka melewatkan dalam ketaatan : ada yang membaca al-qur’an, mengajar,menghafal dan ada yang mengulang pelajarannya. Kita wajib melayani mereka siang dan malam." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Alhamdulillah, semenjak dibangun, ribath itu selalu makmur. Setiap kali mereka menyelesaikan pelajaran, setiap kali pula orang lain yang menuntut ilmu. Syeikh muhammad bathweih, semoga allah memberkatinya, selalu berada di ribath. Ia “ meninggalkan “ keluarganya untuk untuk mengajar di ribath." />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Semenjak kedatangannya di ribath, ia selalu menyibukkan diri dengan ilmu. Semua guru yang sekarang mengajar di seiwun adalah pelajar-pelajar yang dulu telah selesai belajar kepadanya. Beliau mengajar dan memperhatikan mereka. Beliau adalah seorang yang benar-benar alim." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Habib ali ra berkata : ketika aku melewati ribath, terdengar gemuruh suara orang yang sedang membaca al-qur’an, berdzikir, belajar dan berceramah. Aku mengucapkan puji syukur kepada allah yang telah menyenangkan hatiku dengan mewujudkan niatku mendirikan ribath. Ribath ini kudirikan dengan niat-niat yang baik, dan ribath ini menyimpan rahasia ( sir )yang besar. Ribath ini menyadarkan mereka yang lalai dan membangunkan mereka yang tertidur. Berapa banyak faqih yang telah dihasilkannya. Berapa banyak orang alim yang diluluskannya. Ribath ini merubah orang yang tak mengerti apa-apa menjadi orang yang alim." />
+
             <com.codesgood.views.JustifiedTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -362,6 +428,15 @@
 
 
             </LinearLayout>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"
+                android:text="Sumber : https://embunhaticom.wordpress.com/2017/07/20/ribath-al-habib-ali-al-habsyi-shohib-mulid-simtut-duror/" />
+
 
 
         </LinearLayout>

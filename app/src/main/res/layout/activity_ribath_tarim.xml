@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.instansi_pendidikan_di_hadhramaut.RibathTarimActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Ribath Tarim"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/ribath_tarim"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Kota Tarim sejak dahulu merupakan pusat ilmu dan penyebaran agama Islam, pakar sejarah mengatakan demikian. Kerena, melalui perantau yang berasal dari kota ini pada khususnya dan Hadramaut pada umumnya Islam menyebar hingga ke Timur Asia, India, Indonesia, Malaysia, Berunei Darussalam, Fhilipina, Singapura, juga belahan Afrika, Kongo, Somalia, dan Sudan." />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Mereka para muhajirin tersebut pergi untuk berdakwah dan untuk mencukupi kebutuhan hidup mereka dicukupi dengan berdagang, hingga negeri-negeri yang dulunya non Islam berubah menjadi negeri-negeri Islam. Sayidina Imam Ahmad bin Hasan Al-Atthas menyebutkan bahwa sebagian ulama Tarim telah hijrah sejak lebih dari 1000 tahun lalu, di antara mereka ada yang menjadi qadhi (hakim) di Mesir, padahal negeri ini dan Al-Azharnya sudah terkenal sejak dulu sebagai pusat cendikiawan-cendikiawan muslim." />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Pada abad-abad selanjutnya fenomena ini mulai berubah, jika sebelumnya para ulama hijrah dari kota Tarim Al-Ghanna ini, kini orang mulai berdatangan ke Tarim untuk menuntut ilmu. Itu terjadi baik di masa hidup Habib Syekh Abu Bakar bin Salim, masa putra beliau Hamid dan Husein juga di masa Imam Abdullah Al-Haddad. Hal ini terjadi terus menerus hingga pada paruh pertama abad ke-13 H. Kota Tarim kian dipenuhi pendatang asing, di antara mereka Sayid Imam Al-Habib Sholeh Al-Bahrain, Salim bin Sa’id bin Syumaeil, Syekh Abdullah Basaudan, Al-Habib Abu Bakar bin Abdullah Al-Atthas, dan sebagainya. Pendatang-pendatang ini tinggal dimasjid-masjid dan juga di zawiyah-zawiyah yang ada di Tarim."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Kota yang besarnya tidak lebih dari luas kota kecamatan di Indonesia ini memang sangat istimewa. Walaupun kecil namun jumlah masjidnya saja sangat banyak lebih dari 365 buah dan zawiyah-zawiyah yang makna asalnya pojok-pojok yang berfungsi sebagai tempat ibadah para ubbad (ahli ibadah). Di situ para pelajar belajar ilmu nahwu, Fikih, dan ilmu-ilmu lainnya dengan para guru-guru yang ada di tiap-tiap zawiyah atau masjid tersebut. Seperti zawiyah Syekh Ali bin Abu Bakar As-Sakran bin Abdurrahman As-Seggaf yang diasuh oleh Al-Allamah Mufti Diyar Hadramiyah Al-Allamah Al-Habib Abdurrahman bin Muhammad Al-Masyhur, kemudian zawiyah masjid Sirjis dan Al-Awwabin dengan Syekh Al-Allamah Muhammad bin Ahmad Al-Khatib, zawiyah masjid Nafi’ diasuh Al-Allamah Syekh Ahmad bin Abdullah Al-Bakri Al-Khatib (setelah wafat guru beliau yang juga pendiri zawiyah tersebut, Al-Allamah Ahmad bin Abdullah Balfakih pada tahun 1299 H, dan setelah wafat Al-Habib Abu Bakar bin Abdullah Bakar Al-khered), kemudian masjid Suwayyah pengajarnya juga Syekh Ahmad, masjid bani Hatim (sekarang dikenal dengan mesjid ‘Asyiq) mudarrisnya Al-Allamah Alwi bin Abdurrahman bin Abu Bakar Al-Masyhur, zawiyah Syekh Salim bin Fadhal Bafadhal dengan pengasuh Al-Habib Abu Bakar bin Abdullah Al-khered dan lain sebagainya."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Pertemuan itu menghasilkan kesepakatan untuk mendirikan sebuah ribath (ma’had) yang kemudian dinamakan “Ribath Tarim”. Persyaratan bagi calon pelajar juga dibahas pada waktu itu, kriteria utama antara lain: calon santri adalah penganut salah satu mazhab dari empat mazhab fikih (Maliki, Hanafi, Syafi’i, dan Hambali) dan dalam akidah bermazhab Asy’ariyah (mazhab Imam Abi Hasan Al-Asy’ari)"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Setelah membuat kesepakatan di atas dimulailah pembangunan Ribath Tarim. Untuk keperluan ini, Habib Ahmad bin Umar As-Syathiri  mewakafkam rumah beliau (dar muhsin) dan pekarangannya yang berada di sebelah pasar di halaman masjid Jami’ Tarim dan mesjid Babthoinah (sekarang masjid Ribath Tarim). Wakaf juga datang dari Al-Allamah Al-Muhaddis Muhammad bin Salim As-Sirri."/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Habib Salim bin Abdullah As-Syathiri menambahkan bahwa pedagang-pedagang dari keluarga Al-Arfan juga mewakafkan tanah yang mereka beli di bagian Timur, mereka kemudian dijuluki tujjaru ad-dunya wa al-akhirah (pedagang dunia dan akhirat). Datang juga sumbangan melalui wakaf rumah, kebun, dan tanah milik keluarga-keluarga habaib di luar Yaman, seperti Indonesia, Singapura, dan Bombosa Afrika. Akhirnya selesailah pembangunan Ribath Tarim di bulan dzulhijjah tahun 1304 H, dan secara resmi dibuka pada 14 Muharram 1305 H, keluarga Al-Atthas tercatat sebagai santri pertama yang belajar di Ribath Tarim kemudian datang keluarga Al-Habsyi begitu selanjutnya berdatangan para pelajar, baik dari Hadramaut sendiri maupun dari luar Hadramaut bahkan dari luar negeri Yaman. Habib Ahmad bin Hasan Al-Atthas berkata: “perealisasian pembangunan Ribath Tarim ini tidak lain adalah niat semua salafusshalihin alawiyiin, hal ini terbukti dengan mamfaatnya yang besar serta meluas mulai dari bagian Timur dan Barat”."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Luas Bangunan"
+                android:layout_marginTop="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Saat ini, bangunan Rubath Tarim yang luasnya sekitar 500 m persegi ini menampung pelajar dari berbagai belahan dunia terutama pelajar Indonesia yang hampir mendominasi warga Rubath Tarim."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sistem Belajar"
+                android:layout_marginTop="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Sejak berdiri hingga sekarang (kurang lebih 121 tahun) pengajian di Rubath Tarim dilaksanakan dengan sistem halaqah yang dibimbing oleh para masyayikh. Klasifikasi ini disesuaikan dengan tingkatan masing-masing pelajar. Tiap halaqah mengkaji berbagai fan keilmuan tak kurang dari puluhan halaqah sejak pagi hingga malam mengkaji ilmu-ilmu agama dan di ikuti oleh para pelajar dengan disiplin dan khidmat."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kitab - Kitab yang Dipelajari"
+                android:layout_marginTop="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Adapun kitab-kitab yang dikaji pada tiap halaqah disesuaikan dengan kemampuan (semacam tingkatan kelas), antara lain: Umdah, Fathul mu’in, Minhajut thalibin dan sarahnya,  Nahwu, Fawaid sugra dan kabir, Matan al-jurumiah, Al-fushul alfikriah Fikih, Ar-Risalatul Al-Jamiah, Safinatun najah, Mukhtasar shagir, Mukhtasar kabir, Abi suja’, Fathul qarib, Zubad, Mutammimah, Qatrun nada, Syaddzu adzhab, Alfiah Ibnu Mali,  Zawaid (tambahan) alfiah Ibnu Malik."/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Setelah menamatkan kitab-kitab di atas para pelajar melanjutkan pada materi-materi lain, seperti Hadis, Tafsir, Usul fikih."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waktu Belajar"
+                android:layout_marginTop="16sp"
+                android:fontFamily="@font/avenir_bold"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Para pengurus Ribath Tarim memperhatikan semua aktifitas pelajar dengan cermat. Jadwual rutinitas keseharian para pelajar dimulai sejak sebelum salat Subuh dengan melaksanakan salat Tahajud, dilanjutkan salat Subuh berjamaah di masjid Babthoin, disertai pembacaan wirid."/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Ketika pukul 05.00- 07.00 pagi, diadakan pengajian nahwu atau lebih akrab disebut dars nahwu. Setelah itu para pelajar dipersilahkan makan pagi. Pada jam 07.30 dilaksanakan mudzakarah tiap halaqah selama sekitar setengah jam untuk persiapan pengajian yang akan dipelajari bersama masyayikh yaitu hafalan matan sampai pukul 09.00. Selam tiga jam berikutnya adalah waktu istirahat hingga Zuhur, setelah menunaikan salat Zuhur diadakan hizb (tadarus) Al-Qur’an selama setengah jam. Setelah itu para pelajar dianjurkan tidur siang untuk persiapan mengaji pada sore hari."/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Ketika pukul 15.00 setelah salat Asar berjamaah, semua pelajar mengaji tiap halaqah sampai pukul 17.00. Setelah salat Magrib dilanjutkan dengan hizb (tadarus) Al-Qur’an dan pengajian halaqah sampai pukul 20.15. Setelah makan malam para pelajar diharuskan mengikuti halaqah selama setengah jam untuk persiapan pelajaran pagi."/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Pendaftran bisa melalui Habib Abdurrahman bin Syaikh Al Attas,Jakarta"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Tes masuk dilakukan di Ma’had Mashadin Nur Cijurai,Sukabumi-Jawa barat"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Telp./WA : +62 878-2003-6453 (Ustadz Hasan Abdul Aziz)"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

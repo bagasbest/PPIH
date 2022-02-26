@@ -121,14 +121,14 @@
             <com.codesgood.views.JustifiedTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Awaluddin Rais"
+                android:text="Awaluddin Rais (+967771891442)"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
             <com.codesgood.views.JustifiedTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Hadyan Ahmad"
+                android:text="Hadyan Ahmad (+967778028569)"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 

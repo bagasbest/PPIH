@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient2"
+    tools:context=".feature.instansi_pendidikan_di_hadhramaut.MahadAlaydrusActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Ma’had Al-Aydrus"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/avenir_bold"
+            android:textSize="18sp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/mahad_alaydrus"
+                app:riv_corner_radius="10dp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Ma’had Al-Aydrus didirikan oleh Habib Abdullah bin Abdul Qadir Al-Aydrus pada tahun 1425 H/2004 M. Pendirian Ma'had tersebut mendapatkan dukungan dari alim ulama termasuk Habib Umar bin Hafidz sendiri. " />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Ma’had Aydrus terletak berdekatan dengan Zawiyah Syekh Ali bin Abu Bakar As-Sakran di kawasan pasar Tarim. Bangunan Ma’had tersebut merupakan kediaman asalnya Habib Abdullah bin Abu Bakar Al-Aydrus dan juga diwarisi oleh Habib Abdullah bin Syekh Al-Aydrus sehingga berdirilah Ma’had tersebut." />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Ma’had Al-Aydrus merupakan lembaga pendidikan yang dikhususkan bagi pelajar yang ingin mendalami ilmu qiraah sab'ah. Namun sekarang Ma’had Al-Aydrus mebuka empat jurusan yaitu; Syari'ah, Bahasa, Qira'ah dan Menghafal Al-Qur'an. Yang membedakan dengan Ma’had yang lain bahwa, Ma’had Al-Aydrus manhajnya merupakan gabungan atau ringkasan dari Darul Musthofa, Universitas Al-Ahgaff dan Ribath Tarim. Prof. Dr. Abdullah Abdul Qadir Al-Aydrus pimpinan Ma’had menginginkan para lulusannya bisa menjawab tantangan zaman dengan menggabungkan apa yang didalami atau ditonjolkan dari tiga lembaga besar di Tarim, (Ribath Tarim, Universitas Al-Ahgaff dan Darul Musthofa) kesemuanya bisa didapat di satu lembaga yaitu Ma’had Al-Aydrus."/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Sistem pengajian Ma’had Aydrus mempunyai 3 bagian pengajian utama yang boleh dipilih, yaitu;"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="1."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Al-Qur'an, para pelajar akan menghafal Al-Qur'an sehingga tamat satu qur'an penuh. Pelajaran kelas akan diadakan setiap hari kecuali hari Kamis dan Jumat. Bagi pelajar yang sudah menamatkan hafalan Al-Qur'an akan memasuki bagian qiraat. Waktu pengajian adalah selama 2 tahun saja."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="2."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Qiraat, Tahun pertama: hafalan matan jazari, pengajian ilmu tajwid, pengajian riwayat hafs selama setahun. Tahun kedua: hafalan matan syatibi, penambahan pengajian qiraat sehingga menguasai qiraat sab'ah. Pengajian qiraat adalah pada setiap hari selesai salat Asar kecuali hari Kamis dan Jumat. Waktu pengajian hanya 2 tahun."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="10dp"
+                    android:text="3."
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Syariah, merupakan pengajian program terbaru. Pengajian dengan metode pembacaan kitab secara bertalaqqi setiap hari pada waktu pagi kecuali Kamis dan Jumat. Kitab yang digunakan mengikuti tertib bagi ilmu fikih yaitu, Risalah Jamiah, Safinah Naja, Mukhtasar Latif, Muqaddimah Hadramiyah, Ibnu Qasim atau Matan Zubad, Umdah Salik dan Minhaj Imam Nawawi. Kitab yang digunakan mengikuti tertib bagi ilmu nahwu ialah Matan Jurumiyah, Mutammimah, Qatrun Nada dan Alfiah ibnu Malik. Ilmu lain yang akan dipelajari ialah ilmu faraid, musthalah hadis, fikih nikah. Pelajar akan diberi pilihan untuk memilih waktu pengajian selama 2 tahun atau 4 tahun."
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Untuk Pendaftaran silahkan lihat informasi selebihnya di akun resmi Ma’han Al-Aydrus"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Formulir pendaftaran Ma’had Al Aydrus Indonesia"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Ustadz H.M.Abdul Muhith,Lc"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="PP.Al Hidayah An-Nuriyah"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Klampok Rt.04/02-Benjeng-Gresik-Jatim 61172"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="Telp./WA : +62-853-3545-9975"/>
+
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:text="Akun Resmi Pelajar Indonesia di Ma’had Al Aydrus : @ikapi.alaydrus"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

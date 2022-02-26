@@ -233,7 +233,6 @@
             app:layout_constraintStart_toStartOf="@id/view2"
             app:layout_constraintTop_toTopOf="@+id/view8" />
 
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>
